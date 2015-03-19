@@ -1,0 +1,213 @@
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+text-indent: -999px;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+background-image: url(../images/trabaja/ui-icons_222222_256x240.png) !important;
+}
+
+.portlet-borderless-container { position:relative }
+
+
+.aui form  {
+	margin: 0 0 0 0;
+}
+
+#p_p_id_IngresarZonaPrivadaResponse_WAR_IngresarZonaPrivadaportlet_INSTANCE_E3j8_ .portlet-borderless-container{
+	min-height: 0;
+}
+
+#p_p_id_RegistrarPerfilAccesoResponse_WAR_RegistrarPerfilportlet_INSTANCE_E3j9_ .portlet-borderless-container{
+	min-height: 0;
+}
+
+#p_p_id_ChatOnlineResponse_WAR_ChatOnlineportlet_INSTANCE_E3j10_{
+	display: none;
+}
+
+@media only screen and (max-width:640px) {
+    #p_p_id_IngresarZonaPrivadaResponse_WAR_IngresarZonaPrivadaportlet_INSTANCE_E3j8_ .portlet-borderless-container {
+        display:none
+     }
+     
+     #p_p_id_RegistrarPerfilAccesoResponse_WAR_RegistrarPerfilportlet_INSTANCE_E3j9_ .portlet-borderless-container {
+        display:none
+     }
+}
+
+.aui input[type="password"] {
+                font-family: Arial !important;
+    }
+
+.aui input[type="radio"], .aui input[type="checkbox"] {
+margin: 0px 0  0 0;
+line-height: normal;
+}
+
+.aui em {
+    font-style:normal;
+  }
+
+.ui-menu .ui-menu-item a {
+text-decoration: none;
+display: block;
+padding: 2px .4em;
+line-height: 1.5;
+min-height: 0;
+color: #333;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+  background: #e2e2e2 !important; 
+  color: #333333; 
+ }
+
+#___plusone_0 { width: 60px !important;}
+#___plusone_0 iframe { width: 60px !important;}
+
+.aui label {
+  display: initial;
+  margin-bottom: 0 !important;
+  cursor: text;
+  }
+
+.aui ul, .aui ol {
+  padding: 0;
+  margin: 0; }
+
+.aui img {
+  vertical-align: baseline;
+  }
+  
+.aui p { margin: 0 0 0 0;}
+ 
+.aui body {font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 12px; padding-left: 0px; padding-right: 0px;}
+
+.aui a {color: #5F5F5F; outline:none; }
+.aui a:hover, .aui a:focus {
+color: #5F5F5F;
+text-decoration: none; outline:none;
+}
+
+.aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
+background-color: white;
+border: 1px solid #ccc;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+transition: none;
+}
+
+.aui textarea:focus, .aui input[type="text"]:focus, .aui input[type="password"]:focus, .aui input[type="datetime"]:focus, .aui input[type="datetime-local"]:focus, .aui input[type="date"]:focus, .aui input[type="month"]:focus, .aui input[type="time"]:focus, .aui input[type="week"]:focus, .aui input[type="number"]:focus, .aui input[type="email"]:focus, .aui input[type="url"]:focus, .aui input[type="search"]:focus, .aui input[type="tel"]:focus, .aui input[type="color"]:focus, .aui .uneditable-input:focus {
+
+outline: none !important;
+
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.aui select, .aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
+display: inline-block;
+height: auto;
+padding: 5px 1px;
+margin-bottom: 0px;
+font-size: 12px;
+line-height: 20px;
+color: #555;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+vertical-align: middle;
+}
+
+.aui textarea:focus, .aui input[type="text"]:focus, .aui input[type="password"]:focus, .aui input[type="datetime"]:focus, .aui input[type="datetime-local"]:focus, .aui input[type="date"]:focus, .aui input[type="month"]:focus, .aui input[type="time"]:focus, .aui input[type="week"]:focus, .aui input[type="number"]:focus, .aui input[type="email"]:focus, .aui input[type="url"]:focus, .aui input[type="search"]:focus, .aui input[type="tel"]:focus, .aui input[type="color"]:focus, .aui .uneditable-input:focus {
+border: 1px solid #D3D3D3;
+outline: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.aui h1, .aui h2, .aui h3, .aui h4, .aui h5, .aui h6 {
+	margin: 0 0 0 0;
+	font-size: medium;
+	line-height: normal;
+	font-weight: normal;
+}
+
+.aui .breadcrumb {
+padding: 0px 0px;
+margin: 0 0 0px;
+list-style: none;
+background-color: transparent !important;
+-webkit-border-radius: 0px;
+-moz-border-radius: 2px;
+border-radius: 0px;
+}
+
+
+.aui label, .aui input, .aui button, .aui select, .aui textarea {
+font-size: 12px;
+font-weight: normal;
+line-height: 20px;
+outline:none !important;
+font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (min-width:641px) and (max-width:939px) 
+{
+    .aui .row-fluid .span8 {
+     width: 55.74586%;
+    }
+    
+    .thisfull .portlet-boundary_56_ {
+	    float: left;
+    }
+
+.thisfull .portlet-boundary_testimonioview_WAR_Testimonioportlet_ {
+	    float: left;
+	    width: 310px;
+    }
+}
+
+
+
+.chat-bar {
+    background: #063495 !important;
+    border: 1px solid #062565 !important;
+}
+
+.chat-status .status-message  {
+    color:#fff;
+}
+
+.chat-bar div ul li .panel-trigger {
+    color: #fff;
+}
+
+.chat-bar div ul li.selected .panel-trigger { background: #db0058 !important;
+border: solid #db0058 !important;}
+
+.chat-bar div ul li .panel-trigger:hover {background: #db0058 !important;}
+.chat-bar div ul li .panel-trigger {background: #db0058 !important;}
+
+.panel-title { background:#db0058 !important; }
+
+.chat-bar .status-message, .chat-bar .trigger-name { text-shadow:none !important;}
+
+#twitter-widget-0{
+    margin-right: -40px;    
+}
+
+.fixloginliferay label {
+	display:block;
+}
+
+.fixloginliferay .checkbox input[type="checkbox"] {
+	margin-top:4px;
+}

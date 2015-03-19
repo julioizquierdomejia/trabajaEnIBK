@@ -1,0 +1,98 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Description: The default skin for the Nivo Slider.
+Version: 1.3
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+
+.theme-default .nivoSlider {
+	position:relative;
+	width:940px;
+	background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+    margin: 0 auto;
+	z-index:0;
+	height:325px;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	left: 50%;
+    margin-left: -470px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    width: 951px;
+    z-index: 1;
+}
+
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:url(../images/trabaja/sprite01.png) -767px -117px  no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 5px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position: -766px -97px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:62px;
+	height:70px;
+	background:url(../images/trabaja/sprite01.png)  no-repeat;
+	text-indent:-9999px;
+	
+}
+.theme-default .nivo-directionNav a:hover{/*opacity:0.5;-ms-filter: /*"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"*//*-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50)*/}
+
+.theme-default a.nivo-nextNav {
+	background-position: -748px -138px;
+}
+.theme-default a.nivo-nextNav:hover {
+	background-position: -748px -209px;
+}
+.theme-default a.nivo-prevNav {
+	background-position: -685px -138px;
+}
+.theme-default a.nivo-prevNav:hover {
+	background-position: -685px -209px;
+}
+
+.theme-default .nivo-caption {
+	height:200px;
+}
+.theme-default .nivo-caption a {
+}
+.theme-default .nivo-caption a:hover {
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}

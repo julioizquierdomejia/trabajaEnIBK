@@ -1,0 +1,4124 @@
+/*layout*/
+.wrapper_gen {
+  overflow: hidden; }
+
+.header_in {
+  margin: 0 auto;
+  width: 940px;
+  height: 207px; }
+
+section.slider-home {
+  height: 325px;
+  margin: 0 auto;
+  width: 940px;
+  margin-top: -10px; }
+
+section.wrap_callactions {
+  height: 161px; }
+
+.callactions_in {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 16px 0 0;
+  width: 940px; }
+
+.wrap_breadcrumb {
+  height: 32px;
+  margin: 0 auto;
+  width: 940px;
+  padding-top: 13px; }
+
+.wrap_content {
+  margin: 0 auto;
+  width: 940px; }
+
+section.content_int {
+  padding-bottom: 20px; }
+
+.wrap_left {
+  min-height: 300px;
+  padding: 0 0 0 0;
+  width: 620px; 
+  float:left;}
+
+.wrap_left_noticias {
+  margin-top: 0 !important; }
+
+.wrap_right {
+  overflow: hidden;
+  padding-left: 20px;
+  width: 300px;
+  margin-left: -5px;
+  display: inline-table; }
+
+footer.hbot {
+  height: 370px;
+  clear: both; }
+
+.footer_in {
+  margin: 0 auto;
+  width: 100%;
+  background: url(../images/trabaja/line_footer_rigth.jpg) no-repeat top right;
+  }
+
+/*layout*/
+.header_in .navtop {
+  height: 29px;
+  padding: 7px 0 0; }
+
+.navtop .navtop_in {
+  border-right: 1px solid #D1D1D1;
+  float: right; }
+
+.navtop_in ul li {
+  float: left;
+  position: relative; }
+
+.navtop_in ul li a {
+  border-left: 1px solid #D1D1D1;
+  color: #5F5F5F;
+  display: block;
+  font: 11px/12px "Trebuchet MS";
+  padding: 0 9px 0 10px;
+  text-decoration: none; }
+
+.navtop_in ul li a:hover {
+  text-decoration: underline; }
+
+.navtop .navtop_rs {
+  float: right;
+  padding-left: 26px; }
+
+.navtop .navtop_rs ul li {
+  float: left;
+  padding: 0 11px; }
+
+.navtop .navtop_rs ul li a {
+  overflow: hidden;
+  display: block;
+  width: 19px;
+  height: 24px; }
+
+.navtop .navtop_rs ul li a img {
+  position: relative; }
+
+.navtop .navtop_rs ul li a:hover img {
+  top: -24px; }
+
+.navtop_in .only_tm {
+  display: none; }
+
+.wrap_logo .logoin {
+  overflow: hidden; }
+
+.wrap_logo .logoin a {
+  display: block;
+  width: 467px; }
+
+.head_fixed {
+  position: relative;
+  margin: 13px 0 0;
+  width: 940px;
+  background: url("../images/trabaja/body_backg.jpg") repeat-x 0 -86px;
+  border-radius: 0 0 17px 0;
+  behavior: url(PIE.htc);
+  z-index: 100; }
+
+.head_fixed.posfixed {
+  position: fixed;
+  top: -13px; }
+
+.head_fixed .logo_fixed {
+  display: none; }
+
+.head_fixed.posfixed .logo_fixed {
+  position: absolute;
+  left: 11px;
+  top: 10px;
+  display: block; }
+
+.head_fixed.posfixed .wrap_nav nav.navtop ul {
+  display: none; }
+
+.wrap_nav {
+  height: 44px;
+  position: relative;
+  z-index: 10; }
+
+.wrap_nav nav.navtop {
+  float: left;
+  padding: 4px 0 0; }
+
+.wrap_nav nav.navtop ul li {
+  background: url(../images/trabaja/nav_sep.jpg) no-repeat scroll right 7px transparent;
+  float: left;
+  height: 39px;
+  position: relative;
+  width: auto; }
+
+.wrap_nav nav.navtop ul li a {
+  color: #727272;
+  display: block;
+  float: left;
+  font: 15px/39px 'Trebuchet MS';
+  padding-right: 12px;
+  text-decoration: none;
+  /*font:15px/39px 'omnesmedium'*/ }
+
+body.ie8 .wrap_nav nav.navtop ul li a {
+  font: 15px/39px 'Trebuchet MS'; }
+
+.wrap_nav nav.navtop ul li a span.nleft {
+  display: block;
+  float: left;
+  height: 39px;
+  width: 12px; }
+
+.wrap_nav nav.navtop ul li a span.nright {
+  background: url(../images/trabaja/nav_arrowboth.png) no-repeat scroll right 17px transparent;
+  display: block;
+  float: left;
+  height: 39px;
+  padding-right: 17px; }
+
+.wrap_nav nav.navtop ul li:hover {
+  background: none repeat scroll 0 0 transparent; }
+
+.wrap_nav nav.navtop ul li:hover a {
+  background: url(../images/trabaja/nright.jpg) repeat scroll right 0 transparent;
+  color: #0039A6; }
+
+.wrap_nav nav.navtop ul li:hover a span.nleft {
+  background: url(../images/trabaja/nleft.jpg) repeat scroll 0 0 transparent; }
+
+.wrap_nav nav.navtop ul li:hover a span.nright {
+  background: url(../images/trabaja/nav_arrowboth.png) no-repeat scroll right -13px transparent; }
+
+.wrap_nav nav.navtop ul li ul.second_level {
+  display: none; }
+
+.wrap_nav nav.navtop ul li ul.second_level {
+  display: none;
+  background-color: #E7E7E7;
+  border-radius: 0 0 5px 5px;
+  behavior: url(PIE.htc);
+  box-shadow: 2px 3px 2px 0 #8F8F8F;
+  -pie-box-shadow: none;
+  position: absolute;
+  top: 39px;
+  z-index: 3; }
+
+.wrap_nav nav.navtop ul li ul.second_level li {
+  background: url(../images/trabaja/sl_libackg.jpg) no-repeat scroll 0 top transparent;
+  float: none;
+  height: 30px;
+  padding: 0 24px 0 5px !important;
+  list-style-type: none; }
+
+body.ie8 .wrap_nav nav.navtop ul li ul.second_level li {
+  padding: 0 20px 0 5px !important; }
+
+.wrap_nav nav.navtop ul li ul.second_level li a {
+  width: 100%;
+  background: url(../images/trabaja/sl_arrow.jpg) no-repeat scroll 0 13px transparent;
+  color: #555;
+  display: block;
+  font: 12px/30px 'Trebuchet MS';
+  padding: 0 0 0 8px;
+  white-space: nowrap;
+  height: 30px; }
+
+body.ie8 .wrap_nav nav.navtop ul li ul.second_level li a {
+  font: 12px/30px 'Trebuchet MS'; }
+
+.wrap_nav nav.navtop ul li ul.second_level li:hover {
+  background: url(../images/trabaja/sl_libackgover.jpg) no-repeat scroll center top #0039a6 !important;
+  float: none;
+  height: 30px;
+  /*  min-width: 166px;*/
+  padding: 0 10px 0 5px; }
+
+.wrap_nav nav.navtop ul li ul.second_level li:hover a {
+  background: url(../images/trabaja/sl_arrowover.jpg) no-repeat scroll 0 13px transparent;
+  color: #FFFFFF;
+  display: block;
+  font: 12px/30px 'Trebuchet MS';
+  padding: 0 0 0 8px; }
+
+.wrap_nav .nolog {
+  background: url(../images/trabaja/sprite01.png) no-repeat scroll -28px 0px transparent;
+  border-right: 1px solid #BCBCBC;
+  float: right;
+  height: 44px;
+  padding: 0 0 0 34px; }
+
+.wrap_nav .nolog .icon_user {
+  float: left;
+  padding: 9px 3px 0 0; }
+
+.wrap_nav .nolog ul {
+  display: block;
+  float: left;
+  padding: 15px 20px 0 0; }
+
+.wrap_nav .nolog ul li {
+  border-right: 2px solid #ADADAD;
+  float: left; }
+
+.wrap_nav .nolog ul li a {
+  color: #5F5F5F;
+  display: block;
+  font: 12px/13px "Trebuchet MS";
+  padding: 0 11px;
+  text-decoration: none; }
+
+.wrap_nav .nolog ul li a:hover {
+  text-decoration: underline; }
+
+.wrap_nav .loginfull {
+  background: url(../images/trabaja/sprite01.png) no-repeat scroll -28px 0px transparent;
+  border-right: 1px solid #BCBCBC;
+  float: right;
+  height: 44px;
+  padding: 0 0 0 34px;
+  position: relative; }
+
+.loginfull .icon_user {
+  float: left;
+  padding: 9px 3px 0 0; }
+
+.loginfull .name_user {
+  float: left;
+  padding: 0 14px;
+  font: normal 12px/44px "Trebuchet MS";
+  color: #5f5f5f;
+  border-right: 1px solid #bcbcbc; }
+
+.loginfull .perfil_porcentaje {
+  float: left;
+  padding: 9px 16px 10px;
+  border-right: 1px solid #bcbcbc; }
+
+.perfil_porcentaje .wrap_spamperpor {
+  overflow: hidden;
+  padding-bottom: 3px;
+  font: normal 12px/14px "Trebuchet MS";
+  color: #5f5f5f; }
+
+.perfil_porcentaje .barra_perpor {
+  overflow: hidden;
+  width: 144px;
+  height: 6px;
+  border: 1px solid #acb6b0;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: inset 0 4px 9px -9px #000; }
+
+.barra_perpor .barra_perpor_in {
+  overflow: hidden;
+  height: 6px;
+  border-radius: 4px;
+  background-color: #008e35; }
+
+.loginfull .arrow_sublogueado {
+  float: left;
+  width: 41px;
+  height: 44px;
+  background: url(../images/trabaja/sprite01.png) -638px -169px no-repeat;
+  cursor: pointer; }
+
+.loginfull .arrow_sublogueado:hover {
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  filter: alpha(opacity=50); }
+
+.loginfull ul.sub_logueado {
+  display: none;
+  position: absolute;
+  top: 44px;
+  right: 0;
+  overflow: hidden;
+  background-color: #E7E7E7;
+  border-radius: 0 0 5px 5px;
+  behavior: url(PIE.htc);
+  box-shadow: 2px 3px 2px 0 #8F8F8F;
+  z-index: 4; }
+
+ul.sub_logueado li {
+  background: url(../images/trabaja/sub_logueado_li.jpg) no-repeat scroll center bottom #fbfbfb;
+  float: none;
+  height: 30px;
+  padding: 0 8px 0 5px;
+  list-style-type: none; }
+
+ul.sub_logueado li a {
+  background: url(../images/trabaja/sl_arrow.jpg) no-repeat scroll 0 13px transparent;
+  color: #727272;
+  display: block;
+  font: 12px/30px 'omneslight';
+  padding: 0 0 0 8px;
+  text-decoration: none; }
+
+ul.sub_logueado li:hover {
+  background: url(../images/trabaja/sl_libackgover.jpg) no-repeat scroll 0 top #0039a6 !important;
+  float: none; }
+
+ul.sub_logueado li:hover a {
+  background: url(../images/trabaja/sl_arrowover.jpg) no-repeat scroll 0 13px transparent;
+  color: #FFFFFF; }
+
+.wrap_searcher {
+  background: url(../images/trabaja/d-backgsearcher.png) no-repeat scroll 0 0 transparent;
+  height: 58px;
+  padding: 20px 0 0 79px;
+  position: relative;
+  z-index: 5; }
+
+.wrap_searcher .searcher_in {
+  background: url(../images/trabaja/sprite01.png) no-repeat scroll 0 -57px transparent;
+  height: 32px;
+  padding: 0 0 0 43px;
+  width: 750px; }
+
+body.ie8 .wrap_searcher .searcher_in {
+  width: 746px; }
+
+.wrap_searcher .searcher_in ul li {
+  display: inline-block; }
+
+.wrap_searcher .searcher_in ul li.si_bot {
+  position: absolute;
+  right: 76px; }
+
+.wrap_searcher .searcher_in ul li.si_bot input[type=button] {
+  width: 109px;
+  height: 32px;
+  border-radius: 0;
+  background: url(../images/trabaja/sprite01.png) -358px -223px no-repeat;
+  border: 0;
+  text-indent: -9999px; }
+
+.wrap_searcher .searcher_in ul li:hover.si_bot input[type=button] {
+  background-position: -478px -223px; }
+
+.wrap_searcher .searcher_in ul li.hover.si_bot input.disabled[type=button] {
+  background-position: -358px -401px; }
+
+.wrap_searcher .searcher_in ul li.si_bot input.disabled[type=button] {
+  background-position: -358px -402px; }
+
+.wrap_searcher .searcher_in ul li.si_text {
+  color: #6E6E6E;
+  font: 15px/32px 'Trebuchet MS';
+  margin-right: 34px; 
+  height: 32px;
+}
+
+body.ie8 .wrap_searcher .searcher_in ul li.si_text {
+  font: normal 15px/32px 'Trebuchet MS'; }
+
+.wrap_searcher .searcher_in ul li.si_input input {
+  position: relative;
+  z-index: 0;
+  background: none;
+  border: none;
+  color: #9A9A9A;
+  font: 14px/20px "Trebuchet MS";
+  height: 32px;
+  width: 450px;
+
+  padding: 0; 
+  margin-top: -4px;
+}
+
+body.ie8 .wrap_searcher .searcher_in ul li.si_input input {
+  font: 14px/32px "Trebuchet MS";
+  height: 32px; }
+
+.wrap_searcher .wrap_advsearch {
+  margin: 8px 89px 0 0;
+  text-align: right; }
+
+.wrap_searcher a.adv_search {
+  color: #FFFFFF;
+  display: block;
+  position: relative;
+  font: 11px/13px "Trebuchet MS";
+  padding: 0 21px 0 0;
+  text-decoration: underline !important;
+  height: 17px;
+  line-height: 15px; }
+
+.wrap_searcher a.adv_search .arrow_search {
+  width: 10px;
+  height: 10px;
+  background: url(../images/trabaja/sprite01.png) no-repeat 0 0 transparent;
+  position: absolute;
+  right: 2px;
+  top: 5px; }
+
+.wrap_searcher a.adv_search.active .arrow_search {
+  background-position: 0 -23px; }
+
+body.ie8 .wrap_searcher a.adv_search.active {
+  background-position: 140px -19px; }
+
+.wrap_searcher a.adv_search:hover {
+  text-decoration: none; }
+
+.wrap_contavdsearch {
+  background-color: #F8F8F8;
+  border: 1px solid #DADADA;
+  border-radius: 7px 7px 7px 7px;
+  behavior: url(PIE.htc);
+  display: none;
+  left: 0;
+  padding: 34px 0 20px 39px;
+  position: absolute;
+  top: 62px;
+  width: 899px;
+  z-index: 3; }
+
+.wrap_contavdsearch .cont-as1, .wrap_contavdsearch .cont-as2 {
+  float: left;
+  width: 299px; }
+
+.wrap_contavdsearch .cont-as1 label {
+  color: #636363;
+  display: block;
+  font: bold 12px/16px "Trebuchet MS"; }
+
+.wrap_contavdsearch .cont-as1 input[type=text] {
+  background: url(../images/trabaja/d-cont-as1input.jpg) no-repeat scroll 0 0 transparent;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #909090;
+  font: 12px/26px "Trebuchet MS";
+  height: 28px;
+  margin-bottom: 28px;
+  padding: 0 0 0 15px;
+  width: 243px; }
+
+.wrap_contavdsearch .cont-as2 p.title_contas {
+  color: #636363;
+  display: block;
+  font: bold 12px/16px "Trebuchet MS"; }
+
+.cont-as2 .wrap_continteres {
+  overflow: hidden;
+  width: 260px; }
+
+.wrap_continteres .conint_top {
+  background: url(../images/trabaja/interes_top.jpg) no-repeat scroll 0 0 transparent;
+  height: 5px; }
+
+.wrap_continteres .conint_cont {
+  background: url(../images/trabaja/interes_cont.jpg) repeat-y scroll 0 0 transparent; }
+
+.wrap_continteres .conint_bott {
+  background: url(../images/trabaja/interes_bott.jpg) no-repeat scroll 0 0 transparent;
+  height: 5px; }
+
+.conint_cont .conint_item {
+  border-bottom: 1px solid #DEDEDE;
+  padding: 3px 5px 3px 10px;
+  display: inline-flex; }
+
+.conint_cont .conint_item input[type=checkbox] {
+  margin: 4px 5px 0 0;
+  padding: 0;
+  width: 14px; }
+
+.conint_cont .conint_item label {
+  color: #636363;
+  font: 12px/22px "Trebuchet MS";
+  cursor: text;
+  display: inline-table;
+  width: 222px; }
+
+.cont-as2 .wrap_botadvsearch {
+  overflow: hidden;
+  padding: 20px 0 20px 115px; }
+
+.cont-as2 .wrap_botadvsearch input.bt_searchad {
+  background: url(../images/trabaja/sprite01.png) 0 -401px;
+  width: 103px;
+  height: 34px;
+  border: none;
+  cursor: pointer; }
+
+.cont-as2 .wrap_botadvsearch input.bt_searchad:hover {
+  background: url(../images/trabaja/sprite01.png) -107px -401px; }
+
+nav.breadcrumb {
+  display: inline-block; }
+
+nav.breadcrumb ul li {
+  float: left;
+  display: block; }
+
+nav.breadcrumb ul li a {
+  text-decoration: none; }
+
+nav.breadcrumb ul li a span {
+  display: block;
+  text-decoration: none;
+  color: #565656;
+  font: normal 0.91em/25px "Trebuchet MS" !important; }
+
+nav.breadcrumb ul li a.ico_pc {
+  display: block;
+  background: url(../images/trabaja/sprite01.png) 0 -32px no-repeat;
+  text-indent: -999px;
+  height: 22px; }
+
+nav.breadcrumb ul li a.ico_pc span {
+  display: block;
+  padding-left: 14px; }
+
+nav.breadcrumb ul li a span {
+  display: block;
+  background: url(../images/trabaja/ico_list_breadcumb.jpg) no-repeat right 11px; }
+
+nav.breadcrumb ul li .listname {
+  padding-left: 6px;
+  color: #979797; }
+
+nav.breadcrumb ul li span {
+  padding: 0 10px 0 7px;
+  color: #565656;
+  font: bold .91em/25px 'Trebuchet MS'; }
+
+.redes_top {
+  display: inline-table;
+  position:relative;
+  z-index:2;
+  float: right;
+  }
+
+.redes_top ul li {
+  float: left;
+  margin: 0 0 0 40px; }
+
+.redes_top ul li img {
+  cursor: pointer; }
+
+/* section.wrap_callactions{overflow:hidden;background:url(../images/trabaja/d-backg_callactions.jpg) repeat-x scroll 0 0 transparent; height:161px;} */
+/* DETACADO FINAL*/
+.wrap_callactions .suscribirseBoletinModal {
+    width:314px !important;
+}
+
+.wrap_callactions .destacado_box {
+  background: url(../images/trabaja/d-backg_callactions.jpg) repeat-x scroll 0 0 transparent;
+  height: 160px;
+  width: 313px;
+  border: 0;
+  position: relative;
+  margin-right: -4px;
+  overflow: hidden;
+  display: inline-block; }
+
+.destacado_box .dest_img {
+  width: 100%;
+  height: 160px;
+  background: url(../images/trabaja/d-sepcallactions.png) no-repeat scroll right 0 transparent;
+  position: relative;
+  float: left; }
+
+.destacado_box .dest_img img {
+  width: 100%;
+  border: 0; }
+
+.destacado_box .dest_text {
+  background: url(../images/trabaja/arrow_destacados.png) no-repeat #0da045;
+  width: 100%;
+  position: absolute;
+  bottom: -160px;
+  left: 0;
+  height: 160px;
+  opacity: 0;
+  cursor: pointer; }
+
+.destacado_box .dest_text.sube {
+  background-position: 210px 66px; }
+
+.destacado_box .dest_text.verofertas {
+  background-position: 246px 68px; }
+
+.destacado_box .dest_text.suscribete {
+  background-position: 208px 67px; }
+
+.destacado_box .dest_text p {
+  color: #fff;
+  font: normal 24px/26px 'omnesmedium';
+  text-align: center;
+  margin: 27px 0 20px 0;
+  display: block; }
+
+.destacado_box .dest_text p span {
+  font-weight: bold;
+  display: block; }
+
+.destacado_box .dest_text .hover {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border-radius: 4px;
+  width: 110px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  font-size: 11px; }
+
+.destacado_box .dest_text .letter_image {
+  height: 35px;
+  width: 92px;
+  margin: 0 auto; }
+
+.destacado_box .dest_text.sube .letter_image {
+  background: url(../images/trabaja/dest_subetucv.png) center top no-repeat; }
+
+.destacado_box .dest_text.verofertas .letter_image {
+  background: url(../images/trabaja/dest_verofertas.png) center top no-repeat; }
+
+.destacado_box .dest_text.suscribete .letter_image {
+  background: url(../images/trabaja/dest_suscribete.png) center top no-repeat; }
+
+.destacado_box .dest_text .letter_image:hover {
+  background-position: 0 -42px; }
+
+/* DESTACADOS ANTIGUOS 
+.content_callaction{position: absolute; width: 100%; left: 0; background: url(../images/trabaja/d-backg_callactions.jpg) repeat-x scroll 0 0 transparent; height:161px;}
+.callactions_in{overflow:hidden;height:89%;background:url(../images/trabaja/d-backgcallactions_in.jpg) no-repeat scroll 0 0 transparent;}
+.callactions_in .upcv{position:relative;background:url(../images/trabaja/d-sepcallactions.png) no-repeat scroll right 0 transparent;float:left;padding:12px 0 0 53px;width:259px;height:132px;}
+.callactions_in .oplab{position:relative;background:url(../images/trabaja/d-sepcallactions.png) no-repeat scroll right 0 transparent;float:left;padding:12px 0 0 31px;width:288px;height:132px;}
+.callactions_in .alab{position:relative;float:left;padding:12px 0 0 14px;width:295px;height:132px;}
+.callactions_in a{display:block;overflow:hidden;}
+.callactions_in a img{display:block;}
+.callactions_in a:hover img {}
+.callactions_in .upcv a{width:180px;height:107px;}
+.callactions_in .oplab a{width:249px;height:112px;}
+.callactions_in .alab a{width:261px;height:112px;}
+
+ FIN DESTACADOS ANTIGUOS */
+h1.mainh1 {
+  color: #005DAB;
+  font: normal 2.4em/50px 'Trebuchet MS';
+  text-transform: uppercase;
+  background: url(../images/trabaja/d-h1backg.jpg) 0 bottom no-repeat;
+  padding: 0 0 30px 0;
+  width: 932px; }
+
+body.ie8 h1.mainh1 {
+  font: 2.5em/55px 'Trebuchet MS';
+  text-transform: uppercase;
+  color: #005DAB; }
+
+body.ie8 h1.mainh1 span {
+  font-family: 'Trebuchet MS';
+ }
+
+h1.mainh1 span {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+article.wrap_ofertas {
+  overflow: hidden; }
+
+article.wrap_ofertas .ofertas_line {
+  overflow: hidden;
+  padding: 0 0 20px; }
+
+.ofertas_line section.ofertas {
+  width: 258px;
+  border: 1px solid #E3EDF6;
+  float: left;
+  padding: 20px;
+  cursor: default;
+  height: 165px; }
+
+.ofertas_line section.ofertas.marg_r {
+  margin-right: 20px;
+  cursor: default; }
+
+section.ofertas h4 {
+  color: #5F5F5F;
+  font: normal 12px/15px "Trebuchet MS";
+  padding-bottom: 5px; }
+
+section.ofertas .wrap_h2-p {
+  height: 86px;
+  overflow: hidden; }
+
+section.ofertas h3 {
+  color: #005DAB;
+  font: 16px/18px "Trebuchet MS";
+  padding-bottom: 5px;
+  height: 36px; }
+
+section.ofertas p {
+  color: #5F5F5F;
+  font: 12px/18px "Trebuchet MS"; }
+
+section.ofertas address {
+  background: url(../images/trabaja/ico_op_trabajo.png) no-repeat;
+  color: #5F5F5F;
+  display: block;
+  font: normal 11px/13px "Trebuchet MS";
+  padding: 0 0 0 16px;
+  margin-top: 3px; }
+
+section.ofertas .wrap_ofertbutton {
+  overflow: hidden;
+  padding-top: 0px; }
+
+section.ofertas .wrap_ofertbutton a.bot_grey {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  color: #5F5F5F;
+  display: block;
+  float: left;
+  font: 11px/23px "Trebuchet MS";
+  margin-right: 24px;
+  opacity: 0.4;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 108px;
+  z-index: 10;
+  height: 23px; }
+
+section.ofertas .wrap_ofertbutton a.bot_grey:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 section.ofertas .wrap_ofertbutton a.bot_grey {
+  display: block;
+  width: 108px;
+  height: 22px !important;
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  color: #5F5F5F;
+  float: left;
+  font: normal 11px/22px "Trebuchet MS" !important;
+  margin-right: 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10; }
+
+body.ie8 section.ofertas .wrap_ofertbutton a.bot_grey:hover {
+  background: url(../images/trabaja/bot_backgrey.png);
+  background-repeat: repeat-x;
+  background-position: 0 -30px !important;
+  background-color: #aaa8a7;
+  color: #fff; }
+
+section.ofertas .wrap_ofertbutton a.bot_blue {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font: 11px/25px "Trebuchet MS";
+  opacity: 0.4;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  z-index: 10;
+  height: 25px; }
+
+section.ofertas .wrap_ofertbutton a.bot_blue:hover {
+  background-position: 0 bottom; }
+
+body.ie8 section.ofertas .wrap_ofertbutton a.bot_blue:hover {
+  background-position: 0 -27px; }
+
+body.ie8 section.ofertas .wrap_ofertbutton a.bot_blue, body.ie8 section.ofertas .wrap_ofertbutton a.bot_grey {
+  height: 24px; }
+
+.ofertas_line section.ofertas:hover {
+  background-color: #E5F0FB;
+  border: 1px solid #E3EDF6; }
+
+section.ofertas:hover h4 {
+  color: #557EBE; }
+
+section.ofertas:hover h3 {
+  color: #005DAB; }
+
+section.ofertas:hover p {
+  color: #557EBE; }
+
+section.ofertas:hover address {
+  background: url(../images/trabaja/ico_op_trabajo_hover.png) no-repeat transparent;
+  color: #005DAB; }
+
+section.ofertas:hover .wrap_ofertbutton a.bot_grey {
+  opacity: 1; }
+
+section.ofertas:hover .wrap_ofertbutton a.bot_blue {
+  opacity: 1; }
+
+article.wrap_ofertas .wrap_seeall {
+  padding-top: 10px; }
+
+article.wrap_ofertas .wrap_seeall a {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  display: block;
+  font: 11px/23px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 135px !important;
+  height: 23px; }
+
+article.wrap_ofertas .wrap_seeall a:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 article.wrap_ofertas .wrap_seeall a {
+  height: 22px !important; }
+
+body.ie8 article.wrap_ofertas .wrap_seeall a:hover {
+  background-position: 0 -30px;
+  color: #fff;
+  background-color: #aaa8a7; }
+
+article.wrap_hcarousel {
+  overflow: hidden;
+  padding:35px 0 0; }
+
+article.wrap_hcarousel h2 {
+  color: #005DAB;
+  font: 2.4em/55px 'Trebuchet MS';
+  height: 55px;
+  text-transform: uppercase; }
+
+article.wrap_hcarousel h2 span {
+  font-family: 'Trebuchet MS';
+}
+
+body.ie8 article.wrap_hcarousel h2 {
+  color: #005DAB;
+  font: normal 2.5em/55px 'Trebuchet MS';
+  height: 55px;
+  text-transform: uppercase; }
+
+body.ie8 article.wrap_hcarousel h2 span {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+article.wrap_hcarousel .hcarousel_in {
+  background: url(../images/trabaja/d-hcarousel_in.jpg) no-repeat scroll 0 0 transparent;
+  height: 276px;
+  padding: 21px 0 0 17px; }
+
+.hcarousel_in ul li {
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 20px 0 20px 0;
+  behavior: url(PIE.htc);
+  display: block;
+  float: left;
+  margin-right: 15px;
+  overflow: hidden;
+  padding: 14px 13px 12px;
+  width: 159px;
+  height: 228px; }
+
+.hcarousel_in ul li h3 {
+  color: #005DAB;
+  font: 14px/16px "Trebuchet MS";
+  padding-bottom: 4px;
+  height: 32px; }
+
+.hcarousel_in ul li .hc_wrapfot {
+  background: none repeat scroll 0 0 #999999;
+  height: 100px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 11px 0 11px 0;
+  behavior: url(PIE.htc); }
+
+.hcarousel_in ul li p {
+  color: #919195;
+  font: 12px/15px "Trebuchet MS";
+  padding-bottom: 7px;
+  height: 60px; }
+
+.hcarousel_in ul li a.hcseemore {
+  color: #009CDE;
+  display: block;
+  float: right;
+  font: 12px/15px "Trebuchet MS";
+  margin-right: 10px;
+  text-decoration: underline !important; }
+
+article.wrap_hcarousel .wrap_hcseeall {
+  padding-top: 28px; }
+
+article.wrap_hcarousel .wrap_hcseeall a {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  display: block;
+  font: 11px/23px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 135px !important;
+  height: 23px; }
+
+article.wrap_hcarousel .wrap_hcseeall a:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 article.wrap_hcarousel .wrap_hcseeall a {
+  height: 22px !important; }
+
+body.ie8 article.wrap_hcarousel .wrap_hcseeall a:hover {
+  background-position: 0 -30px;
+  color: #fff;
+  background-color: #aaa8a7; }
+
+footer.hbot {
+  background: url(../images/trabaja/line_footer_left.jpg) no-repeat top left;
+  height: 371px; }
+
+.wrap_footermodul {
+  overflow: hidden;
+  height: 212px;
+  padding-bottom: 37px;
+  width: 940px;
+  margin: 0 auto;
+  background: url(../images/trabaja/bg_footer_div.jpg) repeat;
+}
+
+.footer_modul {
+  float: left;
+  width: 158px;
+  padding-top: 37px; }
+
+.footer_modul2 {
+  float: left;
+  width: 307px;
+  padding-top: 21px; }
+
+.footer_modul2 a {
+  display: block;
+  padding-bottom: 10px; }
+
+.footer_modul h3 {
+  color: #FFFFFF;
+  font: bold 11px/13px "Trebuchet MS";
+  padding-bottom: 12px; }
+
+.footer_modul h3 a {
+  color: #fff;
+  font: bold 11px/13px "Trebuchet MS";
+  padding-bottom: 12px;
+  text-decoration: none; }
+
+.footer_modul h3 a:hover {
+  text-decoration: underline;
+  color: #fff; }
+
+.footer_modul ul li {
+  background: url(../images/trabaja/footer_li.png) no-repeat scroll 0 8px transparent;
+  padding-left: 8px; }
+
+.footer_modul ul li a {
+  color: #00691B;
+  font: 11px/20px "Trebuchet MS";
+  text-decoration: none; }
+
+.footer_modul ul li a:hover {
+  text-decoration: untederline;
+  color: #00691B; }
+
+.footer_bot {
+  overflow: hidden;
+  height: 56px;
+  width:940px;
+  margin:0 auto;
+  background:url(../images/trabaja/bg_footer_foot.jpg) repeat;
+ }
+
+.footer_bot .footer_botl {
+  float: left;
+  padding: 13px 0 0; }
+
+.footer_bot .footer_botl a {
+  display: block; }
+
+.footer_bot .footer_botr {
+  float: right;
+  padding: 18px 13px 0; }
+
+.footer_bot .footer_botr ul li {
+  float: left;
+  padding: 0 0 0 12px; }
+
+.footer_bot .footer_botr ul li a {
+  display: block;
+  position: relative; }
+
+.footer_bot .footer_botr ul li a:hover {
+  top: -41px; }
+
+.copyright_gen {
+  height: 66px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+  background: #fff; }
+
+.copyright_gen .wrap_logosinginf {
+  float: left;
+  width: 220px;
+  padding-top: 16px; }
+
+.wrap_logosinginf a {
+  display: block;
+  float: left;
+  margin-right: 12px; }
+
+.wrap_logosinginf a:hover {
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: alpha(opacity=70); }
+
+.copyright_gen .wrap_copyright_in {
+  float: left;
+  width: 495px;
+  padding: 16px 0 0;
+  font: normal 11px/15px "Trebuchet MS";
+  color: #5f5f5f;
+  text-align: center; }
+
+.copyright_gen .min_nav {
+  padding-top: 15px;
+  position: absolute;
+  right: 10px; }
+
+.min_nav ul li {
+  float: left; }
+
+.min_nav ul li a {
+  display: block;
+  padding: 0 0 0 26px;
+  font: normal 11px/15px "Trebuchet MS";
+  color: #5f5f5f;
+  text-decoration: none; }
+
+.min_nav ul li a:hover {
+  text-decoration: underline; }
+
+.min_nav ul li.chat {
+  padding-right: 16px;
+  border-right: 1px solid #d6d6d6; }
+
+.min_nav ul li.contact {
+  padding-left: 13px; }
+
+.min_nav ul li.chat a {
+  background: url(../images/trabaja/icon_chatfooter.jpg) 0 0 no-repeat; }
+
+.min_nav ul li.contact a {
+  background: url(../images/trabaja/icon_contactofooter.jpg) 0 0 no-repeat; }
+
+/*jaco 29/10/2013*/
+.campError {
+  float: left;
+  width: 460px; }
+
+.campError input[type="password"], .campError input[type="text"] {
+  background: #f6f6f6 !important;
+  behavior: url(PIE.htc);
+  border: 1px solid #ab0326 !important;
+  border-radius: 3px;
+  margin: 0;
+  padding: 7px 4px;
+  width: 450px;
+  height:20px !important;
+}
+
+.campError span {
+  color: #ab0326;
+  display: block !important;
+  font-size: 1em;
+  padding-top: 2px;
+}
+
+.campError textarea {
+  background: #f6f6f6;
+  behavior: url(PIE.htc);
+  border: 1px solid #ab0326 !important;
+  border-radius: 3px;
+  height: 70px;
+  margin: 0;
+  padding: 7px 4px;
+  resize: none;
+  width: 450px; }
+
+.campInp {
+  float: left;
+  width: 460px;
+  /*width:74.2%;*/ }
+
+.campInp input[type="password"], .campInp input[type="text"] {
+  background: #f6f6f6 !important;
+  behavior: url(PIE.htc);
+  border: 1px solid #d3d3d3 !important;
+  border-radius: 3px !important;
+  margin: 0;
+  padding: 7px 4px !important;
+  width: 450px;
+  position: relative;
+  color: #747678;
+  height:20px;
+  line-height:20px;
+   }
+
+.campInp textarea {
+  background: #f6f6f6;
+  behavior: url(PIE.htc);
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  height: 44px;
+  margin: 0;
+  padding: 7px 4px;
+  resize: none;
+  width: 450px; }
+
+/*captcha*/
+.box_captcha {
+  margin: 0 0 20px 160px;
+  width: 460px; }
+
+.box_captcha img {
+  vertical-align: middle; }
+
+.box_captcha input[type="text"] {
+  width: 150px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background: #f6f6f6;
+  padding: 5px 4px; }
+
+.box_captcha span {
+  display: block;
+  margin: 2px 0px 0px 62px;
+  vertical-align: bottom;
+  color: #ab0326; }
+
+.filaCampo {
+  overflow: hidden;
+  padding-bottom: 15px;
+  }
+
+.flLe {
+  float: left;
+  padding-right: 20px;
+  width: 218px; }
+
+.flLe img, .flRi img {
+  border: 1px solid #dbdbdb;
+  border-radius: 14px 0 14px 0; }
+
+.flRi {
+  float: right;
+  padding-left: 20px;
+  width: 218px; }
+
+.frmContacto {
+  padding-top: 15px; }
+
+/*edited martin*/
+.imgCh {
+  height: 76px;
+  margin: auto;
+  width: 116px; }
+
+.modAs {
+  padding-bottom: 30px; }
+
+aside .first {
+  margin-top: 55px; }
+
+.modBtnEnviar, .modBtnOfer {
+  width: 619px;
+  text-align: center; }
+
+/*edited martin*/
+.modBtnEnviar, .modBtnOfer2 {
+  width: 460px;
+  text-align: center;
+  float: right; }
+
+.modBtnEnviar input {
+  color: #FFF;
+  behavior: url(PIE.htc);
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  height: 25px;
+  text-shadow: none;
+  width: auto !important;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0 transparent; }
+
+.modBtnEnviar input:hover {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 -27px transparent; }
+
+.modBtnOfer input[type="button"] {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0 transparent;
+  border: none;
+  border-radius: 3px;
+  font-size: .9em;
+  height: 25px;
+  padding: 0;
+  text-shadow: none;
+  width: 81px;
+  behavior: url(PIE.htc); }
+
+.modBtnOfer input:hover {
+  color: #FFF;
+  background-position: 0 -27px; }
+
+.msgConf {
+  padding-top: 100px; }
+
+.msgConf2 {
+  padding-top: 83px; }
+
+.msgConf3 {
+  padding-top: 140px; }
+
+.texInfo {
+  color: #009b3a;
+  font-size: 1.5em;
+  line-height: 22px;
+  padding: 22px 30px 38px;
+  text-align: center; }
+
+.texInter {
+  padding-top: 15px; }
+  
+.texInter a, .texInter a:hover { color:#ff8400; text-decoration:none;} 
+
+.texInter p {
+  color: #5f5f5f;
+  font-size: 1em;
+  padding-bottom: 12px;
+  text-align: justify;
+  line-height: 17.2px; }
+
+.texInter p a, .texInter p a:hover {
+  color: #ff8400;
+  text-decoration: none; }
+
+.texLab {
+  float: left;
+  padding-top: 4px;
+  width: 160px;
+  /*width:25.8%;*/ }
+
+.texLab label {
+  color: #5f5f5f;
+  font-size: 1em; }
+
+.texVal {
+  color: #ab0326;
+  font-size: 12px;
+  padding: 10px 0 30px;
+  text-align: center;
+  line-height: 14px; }
+
+.texVal p {
+  width: 58%;
+  padding: 2px 51px 32px;
+  float: right; }
+
+/****** LightBox *******/
+.campfrmError {
+  float: left;
+  width: 420px; }
+
+.campfrmError2 {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #AB0326 !important;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  float: left;
+  width: 417px; }
+
+.campfrmError input[type="text"] {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #AB0326 !important;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  padding: 7px 4px;
+  width: 410px; }
+
+.campfrmError select {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  color: #636363;
+  padding: 7px 4px;
+  width: 420px; }
+
+.campfrmError span {
+  color: #AB0326;
+  display: block;
+  font-size: 1em; }
+
+.cabLb {
+  background: url(../images/trabaja/sprite01.png) 0 -262px no-repeat;
+  height: 83px;
+  position: relative;
+  width: 600px; }
+
+.cabLb a {
+  display: block;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  text-decoration: none;
+  top: 15px;
+  width: 30px; }
+
+.cabLb p {
+  color: #0036aa;
+  font-family: 'Trebuchet MS';
+  font-size: 2.4em;
+  line-height: 60px;
+  padding-left: 20px; }
+
+body.ie8 .cabLb p {
+  font-family: 'Trebuchet MS'; }
+
+.conteLb {
+  width: 600px;
+  }
+
+.cueLb {
+  background: #fff;
+  padding-bottom: 30px;
+  width: 600px;
+  overflow-y: hidden;
+  }
+
+.flbCamp {
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 15px;
+  width: 540px; }
+
+.fOpt {
+  border-bottom: 1px solid #d3d3d3;
+  overflow: hidden;
+  padding: 10px; }
+
+.fOpt input {
+  float: left; }
+
+.fOpt span {
+  color: #636363;
+  float: left;
+  font-size: 1em;
+  line-height: 18px;
+  padding-left: 6px; }
+
+.grMsjer {
+  clear: both;
+  color: #AB0326;
+  padding-left: 120px; }
+
+.inpFrm {
+  float: left;
+  width: 420px; }
+
+.inpFrm input[type="text"] {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  padding: 7px 4px;
+  width: 410px;
+  height: 20px; }
+
+.inpFrm select {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  color: #636363;
+  padding: 7px 4px;
+  width: 420px; }
+
+.inpFrm2 {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  float: left;
+  width: 418px; }
+
+.labFrm {
+  float: left;
+  padding-top: 4px;
+  width: 120px; }
+
+.labFrm label {
+  color: #5f5f5f;
+  font-size: 1em; }
+
+.lbIco {
+  padding-top: 67px;
+  text-align: center; }
+
+.modBtnOferlb {
+  padding-bottom: 50px;
+  text-align: center; }
+
+.modBtnOferlb input[type="button"] {
+  position: relative;
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0px transparent;
+  border: none;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  font-size: .9em;
+  height: 25px;
+  padding: 0 8px;
+  text-shadow: none;
+  width: auto !important;
+  -pie-background: linear-gradient(#3380e3, #3360bd); }
+
+.modBtnOferlb input:hover {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 -27px;
+  behavior: url(PIE.htc);
+  -pie-background: linear-gradient(#3369ab, #335396); }
+
+.modBtnSus {
+  padding-top: 10px;
+  text-align: center; }
+
+.modBtnSus input {
+  position: relative;
+  color: #FFF;
+  border: none;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  font-size: .9em;
+  height: 25px;
+  padding: 0;
+  text-shadow: none;
+  width: 74px !important;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0px transparent; }
+
+.modBtnSus input:hover {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 -27px transparent; }
+
+.noborbot {
+  border: none !important; }
+
+.pieLb {
+  background: url(../images/trabaja/pie_lb.png) 0 0 no-repeat;
+  height: 12px;
+  width: 600px; }
+
+.texDetalb {
+  color: #009b3a;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin: auto !important;
+  padding-top: 30px;
+  padding-bottom: 37px;
+  text-align: center;
+  width: 86%; }
+
+/*FIN jaco 29/10/2013*/
+/*simplemodal*/
+#basic-modal-content {
+  display: none; }
+
+#simplemodal-overlay {
+  background-color: #000; }
+
+#simplemodal-container code {
+  background: #141414;
+  border-left: 3px solid #65B43D;
+  color: #bbb;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 12px;
+  padding: 4px 6px 6px; }
+
+#simplemodal-container a.modalCloseImg {
+  width: 25px;
+  height: 29px;
+  display: inline;
+  z-index: 3200;
+  position: absolute;
+  top: -15px;
+  right: -16px;
+  cursor: pointer; }
+
+.simplemodal-close {
+  cursor: pointer; }
+
+.wrap_shlbclose {
+  overflow: hidden;
+  text-align: right;
+  padding-bottom: 10px; }
+
+/*FIN simplemodal*/
+/*javier 05-11-2013*/
+.clear {
+  clear: both;
+  visibility: hidden; }
+
+.mainh1 .arrowh1 {
+  display: none; }
+
+article.newsdeta {
+  clear: both;
+  color: #5f5f5f;
+  margin-bottom: 30px;
+}
+
+article.newsdeta ul li {
+list-style: disc;
+margin-left: 25px;
+}
+
+article.newsdeta time {
+  display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  font-size: 11px;
+  margin-bottom: 12px;
+  }
+
+body.ie8 article.newsdeta time {
+  padding-top: 10px; }
+
+article.newsdeta .imgdeta {
+  float: left;
+  padding: 0 18px 12px 0;
+  width: 300px; }
+
+article.newsdeta .imgdeta img {
+  width: 100%;
+  border: 0; }
+
+article.newsdeta p {
+  padding: 2px 0 2px 0;
+  line-height: 18px; }
+
+body.ie8 article.newsdeta .frasece {
+  font: normal 1.4em/22px 'Trebuchet MS'; }
+
+article.newsdeta .frasece {
+  color: #f78f1e;
+  margin-top: 2px;
+  margin-bottom: 14px;
+  font: normal 1.4em/22px 'Trebuchet MS'; }
+
+aside .sugeren {
+  background: #f4f4f4;
+  border: 1px solid #dadada;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  behavior: url(PIE.htc);
+  margin-top: 55px; }
+
+aside .sugeren {
+  background: #f4f4f4;
+  border: 1px solid #dadada;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 30px; }
+
+aside .sugeren h3 {
+  background: #009b3a;
+  padding: 17px;
+  color: #ffffff;
+  font: normal 1.76em/24px 'Trebuchet MS';
+  border-bottom: 1px solid #fff;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  -webkit-border-top-right-radius: 6px;
+  border-top-right-radius: 6px; }
+
+body.ie8 aside .sugeren h3 {
+  font: bold 1.8em/24px 'Trebuchet MS'; }
+
+aside .sugeren ul li {
+  border-top: 1px solid #e7e7e7;
+  color: #5f5f5f; }
+
+aside .sugeren ul li em, aside .sugeren ul li span {
+  color: #5f5f5f; }
+
+aside .sugeren ul li:first-child {
+  border-top: none; }
+
+aside .sugeren ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 14px; }
+
+aside .sugeren ul li a:hover {
+  border-left: 4px solid #009b3a;
+  padding: 14px 14px 14px 10px; }
+
+aside .sugeren ul li:hover {
+  background: #fff; }
+
+aside .sugeren ul li h4 {
+  color: #009b3a;
+  font: normal 1.3em/25px 'Trebuchet MS'; }
+
+figure.banner {
+  margin-bottom: 30px;
+  position: relative; }
+
+aside.homeaside figure.banner.first {
+  margin-top: 55px; }
+
+figure.banner .text_boxfig {
+  position: absolute;
+  top: 20px;
+  padding-left: 20px; }
+
+figure.banner .text_boxfig .titlefig {
+  color: #fff;
+  font: normal 24px/24px 'omneslight';
+  width: 100px; }
+
+figure.banner .text_boxfig .titlefig span {
+  font: normal 24px/24px 'omnesmedium';
+  display: block; }
+
+figure.banner .text_boxfig .contentfig {
+  color: #000;
+  width: 120px;
+  font-family: 'shark_in_the_waterbold';
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: -15px; }
+
+figure.banner .text_boxfig .creditsfig {
+  margin-top: 10px;
+  font: normal 12px/14px 'omnesmedium';
+  color: #000;
+  width:150px;
+  }
+
+figure.nonebanner {
+  display: none;
+  visibility: hidden; }
+
+.bannerfaq {
+  width: 620px;
+  margin-bottom: 20px;
+  border-radius: 16px 0px 16px 0px;
+  overflow: hidden;
+  }
+
+.bannerfaq img {
+  width: 100%; }
+
+.bannerfaq.xtras_mainimage {
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 25px;
+  padding-bottom: 17px; }
+
+nav.listfaq {
+  height: 50px;
+  width: 100%; }
+
+.listfaq ul li {
+  margin: 0;
+  float: left;
+  cursor: pointer;
+  font: normal 1.1em/22px 'Trebuchet MS';
+  position: relative; }
+
+.listfaq ul li .left {
+  background: url(../images/trabaja/sprite01.png) -649px -91px repeat-x;
+  height: 40px;
+  width: 6px;
+  float: left; }
+
+.listfaq ul li .dere {
+  background: url(../images/trabaja/sprite01.png) -657px -91px repeat-x;
+  height: 40px;
+  width: 6px;
+  float: left; }
+
+.listfaq ul li .med {
+  background: url(../images/trabaja/faqtabsmed.jpg) 0 0 repeat-x;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 28px;
+  float: left; }
+
+.listfaq ul .active .left {
+  background: url(../images/trabaja/faq_btn_izq.jpg) repeat-x; }
+
+.listfaq ul .active .dere {
+  background: url(../images/trabaja/faq_btn_dere.jpg) repeat-x; }
+
+.listfaq ul .active .med {
+  background: url(../images/trabaja/faq_btn_med.jpg) repeat-x; }
+
+.listfaq ul .active .arrowactive {
+  width: 100%;
+  height: 49px;
+  background: url(../images/trabaja/tab_lightmed.png) center top no-repeat;
+  position: absolute;
+  top: 0; }
+
+.listfaq ul .active a {
+  text-decoration: none;
+  color: #fff; }
+
+.listfaq ul li a {
+  text-decoration: none;
+  color: #747678; }
+
+.listfaq .navizq {
+  display: none; }
+
+.listfaq .navdere {
+  display: none; }
+
+.boxfaq .contentfaq {
+  margin-top: 35px; }
+
+.contentfaq .contenfaq_in {
+  display: none;
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#ffffff)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#ffffff); }
+
+.boxfaq .contentfaq h2 {
+  color: #005dab;
+  font: normal 1.7em/24px 'Trebuchet MS';
+  margin-bottom: 30px; }
+
+.boxfaq .contentfaq .txtquest {
+  color: #009b3a;
+  font-weight: bold;
+  padding-top: 0; }
+
+.boxfaq .contentfaq ul {
+  margin-left:16px;
+  padding-right:16px
+}
+
+.boxfaq .contentfaq li {
+  list-style: decimal;
+  color: #009b3a;
+  padding-bottom: 20px; }
+
+.boxfaq .contentfaq li li {
+  color:#5f5f5f;
+  padding:3px 0;
+  list-style:disc;
+}
+
+.boxfaq .contentfaq p {
+  color: #5f5f5f;
+  padding-top: 8px; }
+
+article.newslist {
+  color: #5f5f5f;
+  line-height: 18px; }
+
+article.newslist section {
+  display: block;
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e7e7e7; }
+
+article.newslist .clastime {
+  padding-top: 12px;
+  line-height: 12px;
+  font-size: 11px; }
+
+article.newslist section h3 {
+  color: #009b3a;
+  font: normal 1.3em/28px 'Trebuchet MS'; }
+
+article.newslist .imgnewslist {
+  width: 140px;
+  float: left;
+  margin: 0 15px 25px 0; }
+
+article.newslist .imgnewslist img {
+  width: 100%; }
+
+article.newslist .btnnewslist {
+  background: url(../images/trabaja/bot_backgrey.png) 0 0 repeat-x;
+  width: 88px;
+  height: 23px;
+  margin: 10px 0 0 520px;
+  display: block;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  border: 1px solid #BBC1C6;
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f;
+  line-height: 23px; }
+
+article.newslist .btnnewslist:hover {
+  background-position: 0 -29px;
+  color: #fff;
+  border: 1px solid #BBC1C6; }
+
+body.ie8 article.newslist .btnnewslist {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x;
+  width: 88px;
+  height: 21px !important;
+  margin: 10px 0 0 520px;
+  display: block;
+  border-radius: 4px 4px 4px 4px !important;
+  behavior: url(PIE.htc);
+  border: 1px solid #BBC1C6;
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f;
+  line-height: 23px; }
+
+body.ie8 article.newslist .btnnewslist:hover {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x 0 -29px;
+  color: #fff; }
+
+nav.arrow_list ul {
+  display: block;
+  float: right; }
+
+nav.arrow_list ul li {
+  background: url(../images/trabaja/sprite01.png) -622px -140px no-repeat;
+  float: left;
+  margin: 4px 0 0 8px;
+  width: 32px;
+  height: 30px; }
+
+nav.arrow_list {
+  position: relative;
+  margin-left: 0;
+  margin-bottom: 20px;
+  height: 38px; }
+
+nav.arrow_list ul li.listnone {
+  background: none; }
+
+nav.arrow_list ul li a {
+  display: block;
+  color: #888888;
+  text-decoration: none;
+  font: normal 1.3em/28px 'Trebuchet MS';
+  text-align: center;
+  line-height: 30px; }
+
+nav.arrow_list ul li a.active {
+  background: url(../images/trabaja/sprite01.png) -654px -140px no-repeat; }
+
+.btnnewback {
+  display: none; }
+
+.btnnewnext {
+  display: none; }
+
+article.sitemap .titlemap a {
+  color: #009b3a;
+  font: bold 1.2em/24px 'Trebuchet MS';
+  text-decoration: none;
+  display: block;
+  padding-bottom: 8px; }
+
+article.sitemap ul.brnone {
+  border-bottom: none; }
+
+article.sitemap ul {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px 0; }
+
+article.sitemap ul li a {
+  font: normal 1em/20px 'Trebuchet MS';
+  text-decoration: none;
+  color: #5f5f5f;
+  background: url(../images/trabaja/list_sitemap_li.gif) 0 9px no-repeat;
+  padding-left: 11px; }
+
+article.sitemap ul li a:hover {
+  text-decoration: underline; }
+
+article.benef_banco section {
+  border-bottom: 1px solid #b7b7b7;
+  /*padding:0 0 30px;*/
+  margin-bottom: 30px; }
+
+article.benef_banco section.bdnone {
+  border-bottom: none; }
+
+article.benef_banco .title {
+  color: #009b3a;
+  width: 145px;
+  display: inline-table;
+  margin-bottom: 12px; }
+
+article.benef_banco .title span {
+  display: block; }
+
+article.benef_banco .txtcont {
+  color: #5f5f5f;
+  display: inline-table;
+  width: 470px;
+  line-height: 18px;
+  margin-bottom: 17px; }
+
+article.benef_banco .txtcont a {
+color: #009CDE;
+text-decoration:none;
+}
+
+
+article.benef_banco .titlehead {
+  display: block;
+  padding-bottom: 24px; }
+
+article.benef_banco .titlehead h3 {
+  color: #005dab;
+  font: normal 1.7em/58px 'Trebuchet MS'; }
+
+article.benef_banco .titlehead .ico_img {
+  width: 60px;
+  height: 56px;
+  float: left;
+  margin-right: 15px; }
+
+article.benef_banco .titlehead .trabajoimg {
+  background: url(../images/trabaja/sprite01.png) -314px -92px no-repeat; }
+
+article.benef_banco .titlehead .familiaimg {
+  background: url(../images/trabaja/sprite01.png) -436px -92px no-repeat; }
+
+article.benef_banco .titlehead .diversionimg {
+  background: url(../images/trabaja/sprite01.png) -498px -92px no-repeat; }
+
+article.benef_banco .titlehead .descuentoimg {
+  background: url(../images/trabaja/sprite01.png) -559px -92px no-repeat; }
+
+article.benef_banco .titlehead .dsaludimg {
+  background: url(../images/trabaja/sprite01.png) -375px -92px no-repeat; }
+
+article.det_empleo {
+  position: relative;
+  margin-bottom: 150px; }
+
+article.det_empleo section {
+  margin-bottom: 10px;
+}
+
+article.det_empleo .title {
+  color: #0056a3;
+  width: 105px;
+  float: left;
+  display: block;
+  font: bold 1.25em/16px 'Trebuchet MS'; }
+
+article.det_empleo .txtcontimg {
+  width: 610px !important;
+  margin-top: 60px; }
+
+article.det_empleo .txtcont {
+  color: #5f5f5f;
+  display: block;
+  width: 496px;
+  float: left;
+  line-height: 18px;
+  margin-bottom: 10px; }
+
+article.det_empleo ul.listdet_empleo {
+  display: inline-block;
+  width: 470px;
+  color: #5f5f5f; }
+
+article.det_empleo ul.listdet_empleo li {
+  background: url(../images/trabaja/sprite01.png) -840px -422px no-repeat;
+  line-height: 18px;
+  padding-left: 12px; }
+
+article.det_empleo .floatnone {
+  float: none; }
+
+article.det_empleo .ico_detalle {
+  width: 70px;
+  margin: -25px 18px 0 0;
+  position: relative;
+  display: inline-table; }
+
+article.det_empleo .ico_detalle .ico_detalleimg {
+  cursor: pointer;
+  width: 60px;
+  margin: 0 auto;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+}
+
+article.det_empleo .ico_detalle .ico_detalleimg img {
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+article.det_empleo .ico_detalle:hover .ico_detalleimg img {
+  top: -56px;
+}
+
+article.det_empleo .ico_detalle .textnone {
+  text-align: center;
+  font: normal 1.3em/24px 'Trebuchet MS';
+  display: none;
+  cursor: pointer; }
+
+article.det_empleo .box_hover {
+  position: absolute;
+  top: -22px;
+  left: 30px;
+  z-index: 10;
+  width: 340px;
+  display: none; }
+
+article.det_empleo .ico_detalle:hover .box_hover {
+  display: block; }
+
+article.det_empleo .box_hover .text_hover {
+  float: left;
+  font: normal 1.2em/14px 'Trebuchet MS';
+  margin-top: -7px;
+  width: 146px; }
+
+article.det_empleo .box_hover img {
+  float: left; }
+
+article.det_empleo .bt_postular {
+  display: block;
+  clear: both;
+  width: 110px;
+  height: 25px;
+  background: url(../images/trabaja/bt_search_advance.jpg) repeat-x;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font: normal 11px/25px 'Trebuchet MS';
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  margin: 123px auto 0 287px;
+  position: relative;
+  margin-top:20px;
+  }
+
+article.det_empleo .bt_postular:hover {
+  background-position: 0 -25px;
+  color: #fff; }
+
+article.det_empleo .back_btdet {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  font: normal 11px/12px 'Trebuchet MS';
+  text-decoration: none;
+  color: #5f5f5f; }
+
+/*FIN javier 05-11-2013*/
+/*jack 05-11-2013*/
+.imgAuro {
+  float: right;
+  font-size: 0;
+  padding-left: 50px;
+  padding-right: 30px; }
+
+.modArt, .modArt2, .modArt3, .modArt4 {
+  border-bottom: 1px solid #B7B7B7;
+  overflow: hidden;
+  padding: 22px 0;
+  width: 100%;
+  height: auto !important;
+   }
+
+.modArt a,.modArt2 a,.modArt3 a,.modArt4 a {color:#ff8400 !important; }
+.modArt a:hover,.modArt2 a:hover,.modArt3 a:hover,.modArt4 a:hover {color:#ff8400;}
+
+
+.modArt .imgArt, .modArt3 .imgArt {
+  float: left;
+  font-size: 0;
+  width: 34%; }
+
+.modArt .texArt, .modArt3 .texArt {
+  float: right;
+  padding: 20px 12px 0 12px;
+  width: 60%;
+  }
+
+.modArt .texArt p, .modArt2 .texArt p, .modArt3 .texArt p, .modArt4 .texArt p {
+  color: #5f5f5f;
+  font-size: 1em;
+  text-align: justify; }
+
+.modArt2 .imgArt, .modArt4 .imgArt {
+  float: right;
+  font-size: 0;
+  width: 36%; }
+
+.modArt2 .texArt, .modArt4 .texArt {
+  float: left;
+  width: 60%;
+  padding: 0px 12px 0 12px;
+  }
+  
+.carrera_text {
+ width:auto !important;
+}
+
+.texMisvis {
+  border-top: 1px solid #B7B7B7;
+  margin-top: 30px;
+  overflow: hidden;
+  padding-top: 30px; }
+
+.texMisvis a {color:#ff8400;}
+.texMisvis a:hover {color:#ff8400;}
+
+.texMisvis p {
+  color: #5f5f5f;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding-bottom: 12px;
+  text-align: justify; }
+
+.tituDesa, .aui h2.tituDesa {
+  color: #f78f1e;
+  font-family: 'Trebuchet MS';
+  font-size: 1.3em;
+  line-height: 20px;
+  padding-bottom: 12px; }
+
+.tituDesa span, .aui h2.tituDesa span {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+body.ie8 .tituDesa {
+  font-family: 'Trebuchet MS';
+  font-weight: normal; }
+
+body.ie8 .tituDesa span {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+h2.tituMisvi {
+  color: #ff5800;
+  font-family: 'Trebuchet MS';
+  font-size: 1.3em;
+  padding-bottom: 12px;
+  text-transform: uppercase; }
+
+h2.tituMisvi span {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+body.ie8 .tituMisvi {
+  font-family: 'Trebuchet MS';
+  font-weight: normal; }
+
+body.ie8 .tituMisvi span {
+  font-family: 'Trebuchet MS'; }
+
+.vidMis {
+  background: #f4f4f4;
+  height: 330px;
+  border-top: 1px solid #e4e5e6;
+  font-size: 0;
+  padding: 25px;
+  text-align: center; }
+
+/*FIN jack 05-11-2013*/
+.log_welcome {
+  width: 380px;
+  margin: 0 auto !important;
+  padding: 18px 0 45px;
+  font: normal 18px/22px "Trebuchet MS";
+  color: #009b3a;
+  text-align: center; }
+
+.log_welcome span {
+  font-weight: bold; }
+
+.wrap_choicelog {
+  overflow: hidden;
+  margin: 0 0 0 10px; }
+
+.wrap_choicelog .log_linkedin {
+  float: left;
+  width: 267px;
+  padding-right: 14px; }
+
+.log_linkedin .msje_loglinkedin {
+  padding: 0 0 36px;
+  font: normal 12px/14px "Trebuchet MS";
+  color: #5f5f5f;
+  text-align: center; }
+
+.log_linkedin .msje2linkedin {
+  overflow: hidden;
+  width: 108px;
+  margin: 0 auto;
+  padding: 0 0 42px;
+  font: normal 18px/24px "Trebuchet MS";
+  color: #009b3a;
+  text-align: center; }
+
+.log_linkedin .bot_loglinkedin {
+  overflow: hidden;
+  padding: 0 0 35px;
+  text-align: center; }
+
+.log_linkedin .bot_loglinkedin .bot_linkedin {
+  width: 110px;
+  height: 25px;
+  border: 0;
+  background: url(../images/trabaja/bot_linkedin.png) 0 0 transparent no-repeat;
+  text-indent: -9999px; }
+
+.log_linkedin .bot_loglinkedin .bot_linkedin:hover {
+  background-position: 0 -32px;
+  border: 0;
+  width: 110px;
+  height: 25px; }
+
+.log_linkedin .log_linkmsjerror {
+  font: normal 12px/15px "Trebuchet MS";
+  color: #ab0326;
+  text-align: center; }
+
+.wrap_choicelog .logs_sep {
+  float: left;
+  width: 14px;
+  height: 216px;
+  background: url(../images/trabaja/backg_logs_sep.jpg) 0 0 no-repeat;
+  font: normal 25px/207px "Trebuchet MS";
+  color: #009b3a; }
+
+.wrap_choicelog .log_interbank {
+  float: left;
+  width: 240px;
+  padding: 0 0 0 29px; }
+
+.log_interbank .msje_logint {
+  padding: 0 0 14px;
+  font: normal 12px/15px "Trebuchet MS";
+  color: #5f5f5f;
+  text-align: center; }
+
+.log_interbank .wrap_formlogint {
+  overflow: hidden; }
+
+.wrap_formlogint .formlogint_item {
+  overflow: hidden;
+  width: 245px;
+  margin: 0 auto;
+ }
+
+.wrap_formlogint .formlogint_item label {
+  display: block;
+  font: normal 12px/18px "Trebuchet MS";
+  color: #009b3a;
+  padding:0px 10px 1px 0px;
+   }
+
+.wrap_formlogint .formlogint_item input[type="text"], .wrap_formlogint .formlogint_item input[type="password"] {
+  position: relative;
+  width: 226px;
+  height: 20px;
+  line-height:20px;
+  padding-left: 10px;
+  background: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  behavior: url("PIE.htc");
+  margin-bottom:10px !important;
+  }
+
+.wrap_formlogint .formlogint_item input.error {
+  border: 1px solid #ab0326; }
+
+.wrap_formlogint .formlogint_item span.msjelogint {
+  display: block;
+  padding: 3px 0 8px;
+  font: normal 12px/14px "Trebuchet MS";
+  color: #ab0326;
+  text-align:left;
+  margin-top:-10px;
+   }
+
+.wrap_buttonlogint {
+  overflow: hidden;
+  padding: 5px 0 29px;
+  text-align: center; }
+
+.wrap_buttonlogint input[type="button"] {
+  position: relative;
+  width: 109px;
+  height: 25px;
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  font: 11px/14px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  margin-top: 9px; }
+
+.wrap_buttonlogint input[type="submit"] {
+  position: relative;
+  width: 109px;
+  height: 25px;
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  font: 11px/14px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  margin-top: 9px; }
+
+.wrap_buttonlogint input:hover {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x 0 bottom;
+  color: #fff;
+  text-shadow: none;
+  border: 1px solid #BBC1C6;
+  font: 11px/14px "Trebuchet MS"; }
+
+body.ie8 .wrap_buttonlogint input {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x scroll 0 0 transparent;
+  height: 24px !important; }
+
+body.ie8 .wrap_buttonlogint input:hover {
+  background-position: 0 -30px; }
+
+.wrap_links_logint {
+  overflow: hidden;
+  font: normal 12px/14px #5f5f5f;
+  color: #5f5f5f; }
+
+.wrap_links_logint a {
+  text-decoration: none;
+  font: normal 12px/14px #5f5f5f;
+  color: #0036aa; }
+
+.wrap_links_logint a:hover {
+  text-decoration: underline;
+  color: #0036aa;
+  }
+
+/*Jack 13-11-2013*/
+.barTitu {
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 4px 18px; }
+
+.barTitu h3 {
+  color: #005daa;
+  font-size: 1.3em;
+  font-weight: bold;
+  float: left; }
+
+.barTitu a {
+  background: url(../images/trabaja/sprite01.png) -667px -91px no-repeat;
+  display: block;
+  float: right;
+  height: 21px;
+  width: 22px; }
+
+.barTitu a.active {
+  background-position: -667px -114px; }
+
+.barTitu a.active:hover {
+  background-position: -691px -114px; }
+
+.barTitu a:hover {
+  background: url(../images/trabaja/sprite01.png) -691px -91px no-repeat; }
+
+.btnsExp {
+  padding-top: 15px;
+  text-align: center;
+  width: 460px;
+  margin: 0 auto; }
+
+.btnsExp .btnAgregar, .btnsExp .btnCancelar {
+  border-radius: 3px;
+  behavior: url("PIE.htc");
+  font-size: 1em;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+  width: 75px !important; }
+
+body.ie8 .btnsExp .btnAgregar, body.ie8 .btnsExp .btnCancelar {
+  height: 24px !important; }
+
+.btnsExp .btnAgregar {
+  background: url(../images/trabaja/bt_search_advance.jpg) 0 0 repeat-x;
+  border: none;
+  color: #FFF;
+  margin-right: 15px; }
+
+.btnsExp .btnAgregar:hover {
+  background: url(../images/trabaja/bt_search_advance.jpg) 0 -24px repeat-x;
+  color: #FFF; }
+
+.btnsExp .btnCancelar {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x;
+  border: 1px solid #c6c6c6;
+  color: #5f5f5f; }
+
+.btnsExp .btnCancelar:hover {
+  background: url(../images/trabaja/bot_backgrey.png) 0 bottom repeat-x;
+  border: 1px solid #c6c6c6;
+  color: #FFF; }
+
+body.ie8 .btnsExp .btnCancelar {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x; }
+
+body.ie8 .btnsExp .btnCancelar:hover {
+  background: url(../images/trabaja/bot_backgrey2.png) 0 -30px repeat-x; }
+
+.campError .selAno {
+  float: left; }
+
+.campError label.error {
+  color: #ab0326;
+  display: block !important;
+  font-size: 1em;
+  padding-top: 2px; }
+
+.campError .selAno select {
+  width: 140px; }
+
+.campError .selMes {
+  float: left;
+  padding-right: 20px; }
+
+.campError .selMes select {
+  width: 140px; }
+
+.campError .modFecnac {
+  background: #F6F6F6;
+  behavior: url(PIE.htc);
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 218px;
+  position: relative; }
+
+.campError2, .campError3 {
+  float: left;
+  width: 460px; }
+
+.campError2 .modAdjunta input[type="text"] {
+  background: #F6F6F6;
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  color: #A7A9AC;
+  float: left;
+  font-size: 1em;
+  padding: 7px 4px;
+  width: 210px;
+  position: relative; }
+
+.campError2 span {
+  color: #AB0326;
+  display: block;
+  font-size: 1em;
+  padding-top: 2px;
+  padding-left: 240px; }
+
+.campError3 .modFecnac {
+  background: #F6F6F6;
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 218px; }
+
+.campError3 span {
+  color: #AB0326;
+  display: block;
+  font-size: 1em;
+  padding-top: 2px; }
+
+.campError3 select {
+  background: #F6F6F6;
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  color: #747678;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 4px;
+  width: 220px;
+  position: relative; }
+
+.campInp select {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  color: #747678;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 4px;
+  width: 460px;
+  behavior: url("PIE.htc");
+  position: relative; }
+  
+.modAdjunta .box_document  { width:224px; display:inline-block; }
+.modAdjunta .box_numdoc { width:170px; display:inline-block; }
+
+.campError select {
+  background: #F6F6F6;
+  border: 1px solid #AB0326 !important;
+  border-radius: 3px;
+  color: #747678;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 4px;
+  width: 460px;
+  behavior: url("PIE.htc");
+  position: relative; }
+
+.campError3 input {
+  background: #F6F6F6;
+  border: 1px solid #AB0326;
+  border-radius: 3px;
+  color: #747678;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 7px 4px;
+  width: 130px;
+  behavior: url("PIE.htc");
+  position: relative; }
+
+.campInp .selAno {
+  float: left;
+  width: auto; }
+
+.campInp .selAno select {
+  width: 140px; }
+
+.campInp .selMes {
+  float: left;
+  padding-right: 20px;
+  width: auto; }
+
+.campInp .selMes select {
+  width: 140px; }
+
+.campInp2 {
+  float: left;
+  width: 460px; }
+
+.campInp2 input[type="text"] {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  color: #747678;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 7px 4px;
+  width: 130px;
+  height:18px;  
+   }
+
+.campInp2 select {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  color: #747678;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 4px;
+  width: 220px;
+  height:34px;
+  }
+
+.campTexta {
+  padding-top: 10px; }
+
+.campTexta textarea {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  behavior: url(PIE.htc);
+  border-radius: 3px;
+  height: 102px;
+  padding: 7px 4px;
+  resize: none;
+  width: 450px;
+  position: relative; }
+
+.Cconta {
+  background: #FFF;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  behavior: url(PIE.htc);
+  color: #5e5e5e;
+  height: 17px;
+  left: 254px;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  width: 24px; }
+
+.frmContacto2 {
+  padding-top: 20px; }
+
+.filaExp {
+  padding: 30px 0 50px !important; }
+
+.filaExp li {
+  overflow: hidden;
+  padding-bottom: 10px; }
+
+.filaExp p {
+  float: left;
+  font-size: 1em; }
+
+.filaExp .tEti {
+  color: #343434;
+  font-weight: bold;
+  width: 107px; }
+
+.filaExp .tDesc {
+  color: #5f5f5f;
+  width: 513px; }
+
+.filaExp .tEti2 {
+  color: #343434;
+  font-weight: bold;
+  width: 160px; }
+
+.filaExp .tDesc2 {
+  color: #5f5f5f;
+  width: 460px; }
+
+.flpadb {
+  padding-bottom: 0px; }
+
+.listfaq ul li .med.cenline1 {
+  padding: 0 31px; }
+
+.listfaq ul li .med.cenline2 {
+  height: 36px;
+  padding: 4px 37px 0;
+  line-height: 16px;
+  text-align: center; }
+
+.listfaq ul .active .arrowactive.icofle {
+  width: 100%; }
+
+.menorPadb {
+  padding-bottom: 20px !important; }
+
+.modAdjunta {
+  overflow: hidden;
+  position: relative; }
+
+.modAdjunta input[type="file"] {
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  position: absolute;
+  left: 1px;
+  top: 0;
+  z-index: 50;
+  text-indent: -99px;
+  opacity: 0;
+  width: 240px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+  
+  
+  
+.img_browie {
+  display: none;
+}
+
+body.ie .campInp2 input[type="text"], body.ie8 .campInp2 input[type="text"] {
+  width: 180px;
+}
+
+
+
+body.ie .img_browie {
+  display: block;
+}
+
+body.ie .img_browall {
+  display: none;
+}
+
+body.ie .modAdjunta input[type="file"] {  
+  width: 91px;
+  background: #000 !important;
+}
+
+
+body.ie8 .img_browie {
+  display: block;
+}
+
+body.ie8 .img_browall {
+  display: none;
+}
+
+body.ie8 .modAdjunta input[type="file"] {  
+  width: 91px;
+  left: -6px !important;
+}
+  
+
+ body.ie .modAdjunta .inputtext_ie, body.ie8 .modAdjunta .inputtext_ie  {
+width: 334px !important;
+} 
+
+body.ie .modAdjunta .inputlinkendin_ie, body.ie8 .modAdjunta .inputlinkendin_ie  {
+width: 302px !important;
+} 
+
+.modAdjunta a {
+  float: left;
+  font-size: 0;
+  margin-right: 20px;
+  position: relative;
+  z-index: 10; }
+
+.modAdjunta input {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  behavior: url(PIE.htc);
+  border-radius: 3px;
+  color: #a7a9ac;
+  font-size: 1em;
+  float: left;
+  padding: 7px 4px;
+  width: 210px;
+  position: relative; }
+
+.modAdjunta select {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  behavior: url(PIE.htc);
+  border-radius: 3px;
+  color: #747678;
+  font-size: 1em;
+  float: left;
+  margin-right: 20px;
+  padding: 6px 4px;
+  width: 220px;
+  position: relative; }
+
+.modBan2 {
+  behavior: url(PIE.htc) !important;
+  border: 1px solid #dbdbdb;
+  border-radius: 15px 0 15px 0;
+  font-size: 0; }
+
+.modBan2 img {
+  vertical-align: middle !important; }
+
+.modBan {
+ border-radius: 16px 0px 16px 0px;
+ overflow: hidden;
+}
+
+.modBtnRegistrar {
+  width: 460px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px; }
+
+.modBtnRegistrar input {
+  background: url(../images/trabaja/bt_search_advance.jpg) 0 0 repeat-x;
+  border: none;
+  border-radius: 3px;
+  behavior: url("PIE.htc");
+  color: #FFF;
+  font-size: 1em;
+  height: 25px;
+  padding: 0;
+  text-shadow: none;
+  width: 75px !important; }
+
+.modBtnRegistrar input:hover {
+  background: url(../images/trabaja/bt_search_advance.jpg) 0 -24px repeat-x;
+  color: #FFF; }
+
+.modBtnPreg {
+  padding-top: 10px;
+  text-align: center; }
+
+.modBtnPreg a.gofaq {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 174px;
+  height: 25px;
+  padding: 0;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  border: none;
+  color: #FFF;
+  font-size: 0.91em;
+  text-shadow: none;
+  line-height: 25px;
+  text-decoration: none; }
+
+.modBtnPreg a.gofaq:hover {
+  background-position: 0 bottom;
+  color: #FFF; }
+
+body.ie8 .modBtnPreg a.gofaq:hover {
+  background-position: 0 -27px; }
+
+body.ie8 .modBtnPreg a.gofaq {
+  height: 24px; }
+
+.modDescExp {
+  border-bottom: 1px solid #747678;
+  position: relative; }
+
+.modEdit {
+  position: absolute;
+  right: 0;
+  top: 30px; }
+
+.modEdit a {
+  display: block;
+  float: left;
+  height: 21px;
+  width: 22px; }
+
+.modEdit .btnEdit {
+  background: url(../images/trabaja/sprite01.png) -718px -91px no-repeat; }
+
+.modEdit .btnEdit:hover {
+  background: url(../images/trabaja/sprite01.png) -742px -91px no-repeat; }
+
+.modEdit .btnElim {
+  background: url(../images/trabaja/sprite01.png) -718px -114px no-repeat;
+  margin-left: 10px; }
+
+.modEdit .btnElim:hover {
+  background: url(../images/trabaja/sprite01.png) -742px -114px no-repeat; }
+
+.modExp {
+  border-bottom: 1px solid #747678;
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-top: 20px; }
+
+.modFecnac {
+  background: #F6F6F6;
+  behavior: url(PIE.htc);
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 218px;
+  position: relative; }
+
+.modFecnac input[type="text"] {
+  background: #F6F6F6;
+  border: none !important;
+  float: left;
+  padding: 7px 4px;
+  width: 180px; }
+
+.modFecnac img {
+  cursor: pointer;
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  cursor: pointer; }
+
+.modPerfil {
+  background: #f4f4f4;
+  border: 1px solid #dadada;
+  behavior: url(PIE.htc);
+  border-radius: 6px;
+  margin-bottom: 30px;
+  position: relative; }
+
+.modPerfil h3 {
+  background: url(../images/trabaja/top_box_sug.png) 0 0 no-repeat;
+  color: #FFF;
+  font-family: 'omnesmedium';
+  font-size: 2em;
+  padding: 8px 0 8px 16px; }
+
+body.ie .modPerfil h3 {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+body.ie8 .modPerfil h3 {
+  font-family: 'Trebuchet MS';
+  font-weight: bold; }
+
+.modPerfil ul li {
+  font-size: 1.1em; }
+
+.modPerfil ul li a {
+  color: #5f5f5f;
+  display: block;
+  padding: 16px 0 16px 20px;
+  text-decoration: none; }
+
+.modPerfil ul li a:hover {
+  background: #acacac;
+  behavior: url(PIE.htc);
+  border-radius: 3px;
+  color: #FFF; }
+
+.modPerfil ul li a span {
+  padding-left: 25px; }
+
+.modPerfil ul li a.icoPostu span {
+  background: url(../images/trabaja/sprite01.png) -836px -315px no-repeat; }
+
+.modPerfil ul li a.icoPostu:hover span {
+  background: url(../images/trabaja/sprite01.png) -836px -331px no-repeat; }
+
+.modPerfil ul li a.icoActua span {
+  background: url(../images/trabaja/sprite01.png) -836px -350px no-repeat; }
+
+.modPerfil ul li a.icoActua:hover span {
+  background: url(../images/trabaja/sprite01.png) -836px -368px no-repeat; }
+
+.modPerfil ul li a.icoCambi span {
+  background: url(../images/trabaja/sprite01.png) -836px -385px no-repeat; }
+
+.modPerfil ul li a.icoCambi:hover span {
+  background: url(../images/trabaja/sprite01.png) -836px -400px no-repeat; }
+
+.modSin {
+  padding-bottom: 28px; }
+
+.modSin a {
+  display: block;
+  height: 38px;
+  width: 185px; }
+
+.texDes {
+  color: #5f5f5f;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 4px 0 30px 20px; }
+
+.texObs {
+  color: #a7a9ac;
+  font-size: 1em;
+  padding-top: 10px; }
+
+.texSin {
+  color: #5f5f5f;
+  font-size: 1em;
+  padding: 30px 0 38px 20px; }
+
+.texChatlb {
+  color: #009b3a;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin: auto !important;
+  padding-top: 16px;
+  padding-bottom: 26px;
+  text-align: center;
+  width: 70%; }
+
+.texChatinfo {
+  color: #5f5f5f;
+  font-size: 1em;
+  margin: auto !important;
+  padding-bottom: 18px;
+  text-align: center;
+  width: 70%; }
+
+/*FIN Jack 13-11-2013*/
+/*Javier 15-11-2013*/
+/* PAGINACION */
+nav.arrow_list ul li a:hover {
+  background: url(../images/trabaja/sprite01.png) -654px -140px no-repeat; }
+
+/* TAB DEL PSD 09 */
+.cont-as2 .title_contas {
+  font: bold 12px/15px "Trebuchet MS";
+  color: #636363; }
+
+.listfaq ul li:hover .left {
+  background: url(../images/trabaja/sprite01.png) -635px -91px repeat-x; }
+
+.listfaq ul li:hover .med {
+  background: url(../images/trabaja/faqtabsmed.jpg) 0 bottom repeat-x; }
+
+.listfaq ul li:hover .dere {
+  background: url(../images/trabaja/sprite01.png) -643px -91px repeat-x; }
+
+.listfaq ul .active .arrowactive:hover {
+  background: url(../images/trabaja/tab_lightmed.png) center bottom no-repeat; }
+
+.listfaq ul .active .left {
+  background: url(../images/trabaja/faq_btn_izq.jpg) repeat-x !important;
+  height: 40px;
+  width: 6px;
+  float: left; }
+
+.listfaq ul .active .med {
+  background: url(../images/trabaja/faq_btn_med.jpg) repeat-x !important;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 37px;
+  float: left; }
+
+.listfaq ul .active .dere {
+  background: url(../images/trabaja/faq_btn_dere.jpg) repeat-x !important;
+  height: 40px;
+  width: 6px;
+  float: left; }
+
+article.op_trabajo {
+  color: #5f5f5f; }
+
+article.op_trabajo .destacado_op {
+  background: #E5F0FB; }
+
+article.op_trabajo .locked_box {
+  color: #5f5f5f;
+  background-color: #f3f3f3; }
+
+article.op_trabajo .locked_box .title {
+  font: normal 20px/22px 'Trebuchet MS';
+  color: #7d7d7d !important;
+  margin: 35px 0;
+  position: relative;
+  padding-left: 30px;
+  background: url(../images/trabaja/sprite01.png) -831px -283px no-repeat; }
+
+article.op_trabajo .locked_box .title img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+article.op_trabajo .locked_box h3, article.op_trabajo .locked_box p {
+  color: #aaa; }
+
+article.op_trabajo .locked_box address {
+  background: url(../images/trabaja/sprite01.png) no-repeat scroll -835px -251px transparent;
+  color: #aaa; }
+
+article.op_trabajo .locked_box .btn_lockpostular {
+  background: url(../images/trabaja/line_bt_locked.jpg) repeat-x;
+  height: 23px;
+  width: 70px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url("PIE.htc");
+  text-align: center;
+  text-decoration: none;
+  color: #aaaaaa;
+  font: normal 11px/23px 'Trebuchet MS';
+  margin: 0 40px 0 15px;
+  border: 1px solid #d0d1d1; }
+
+article.op_trabajo .locked_box .btn_lockdetalle {
+  background: url(../images/trabaja/line_bt_locked.jpg) repeat-x;
+  height: 23px;
+  width: 88px;
+  display: inline-block;
+  float: right;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid #d0d1d1;
+  text-align: center;
+  text-decoration: none;
+  font: normal 11px/23px 'Trebuchet MS';
+  color: #aaaaaa;
+  behavior: url(PIE.htc);
+  position: relative; }
+
+article.op_trabajo section {
+  display: block;
+  margin-bottom: 2px;
+  padding: 5px 22px 16px 22px;
+  border-bottom: 1px solid #b7b7b7; }
+
+article.op_trabajo address {
+  position: relative;
+  background: url(../images/trabaja/sprite01.png) no-repeat scroll -835px -202px transparent;
+  padding-left: 15px; }
+
+article.op_trabajo h3 {
+  color: #009b3a;
+  font: normal 1.3em/24px 'Trebuchet MS'; }
+
+article.op_trabajo p {
+  line-height: 18px;
+  margin-bottom: 30px; }
+
+.btn_opdetalle {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  height: 23px;
+  width: 110px;
+  display: inline-block;
+  float: right;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  border: 1px solid #BBC1C6;
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f;
+  font: normal 11px/23px 'Trebuchet MS'; }
+
+.btn_opdetalle:hover {
+  background-position: 0 -29px;
+  border: 1px solid #c1c1c1;
+  color: #fff !important; }
+
+body.ie8 .btn_opdetalle {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x 0 0;
+  height: 22px !important; }
+
+body.ie8 .btn_opdetalle:hover {
+  background-position: 0 -30px;
+  border: 1px solid #c1c1c1;
+  color: #fff; }
+
+.btn_oppostula {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0 transparent;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #FFFFFF !important;
+  display: inline-block;
+  float: right;
+  font: 11px/25px "Trebuchet MS";
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  margin-left: 15px; }
+
+.btn_oppostula:hover {
+  background-position: 0 -27px; }
+
+body.ie8 .btn_oppostula {
+  height: 24px !important; }
+
+.btn_opdetalle_sec {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x scroll 0 0 transparent;
+  height: 25px;
+  width: 88px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  text-align: center;
+  text-decoration: none;
+  color: #fff !important;
+  font: normal 11px/25px 'Trebuchet MS'; }
+
+.btn_opdetalle_sec:hover {
+  background-position: 0 bottom; }
+
+body.ie8 .btn_opdetalle_sec {
+  height: 24px !important; }
+
+body.ie8 .btn_opdetalle_sec:hover {
+  background-position: 0 -27px; }
+
+.btn_oppostula_sec {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x 0 0 transparent;
+  height: 23px;
+  width: 106px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f !important;
+  font: normal 11px/23px 'Trebuchet MS';
+  margin-left: 15px;
+  border: 1px solid #c1c1c1; }
+
+.btn_oppostula_sec:hover {
+  background-position: 0 bottom;
+  border: 1px solid #c1c1c1;
+  color: #fff !important; }
+
+.btn_opmispostula_sec {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x 0 0 transparent;
+  height: 23px;
+  width: 106px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  text-align: center;
+  text-decoration: none;
+  color: #5f5f5f;
+  font: normal 11px/23px 'Trebuchet MS';
+  margin-left: 15px;
+  border: 1px solid #c1c1c1; }
+
+.btn_opmispostula_sec:hover {
+  background-position: 0 bottom;
+  border: 1px solid #c1c1c1;
+  color: #fff; }
+
+body.ie8 .btn_oppostula_sec {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x 0 0;
+  height: 22px !important; }
+
+body.ie8 .btn_oppostula_sec:hover {
+  background-position: 0 -30px; }
+
+.searchad_movil {
+  display: none; }
+
+.searchadvanc .addtag {
+  display: inline-block;
+  color: #636363;
+  background: #e3e3e3;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 8px;
+  margin: 0 0 8px 6px;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px 3px 3px 3px;
+  behavior: url(PIE.htc);
+  border-bottom: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1; }
+
+.searchadvanc .addtag span {
+  padding-right: 5px; }
+  
+.searchadvanc .addtag img { max-width: inherit !important;  }
+
+.searchadvanc {
+  background: #f4f4f4;
+  color: #636363;
+  border: 1px solid #dadada;
+  border-radius: 6px 6px 6px 6px;
+  margin-bottom: 30px;
+  behavior: url(PIE.htc);
+  padding: 0 19px; }
+
+.searchadvanc h3 {
+  background: #009b3a;
+  padding: 17px;
+  width: 102%;
+  margin-left: -19px;
+  color: #ffffff;
+  font: normal 1.8em/24px 'omnesmedium';
+  border-bottom: 1px solid #fff;
+  behavior: url(PIE.htc);
+  border-radius: 6px 6px 0px 0; }
+
+body.ie8 .searchadvanc h3 {
+  font: bold 1.8em/24px 'Trebuchet MS'; }
+
+.searchadvanc .cont-as1 {
+  margin-top: 8px; }
+
+.searchadvanc .cont-as1 label {
+  color: #636363;
+  display: block;
+  font: bold 12px/16px "Trebuchet MS";
+  clear: both; }
+
+.searchadvanc .cont-as1 input[type="text"] {
+  background: url("../images/trabaja/d-cont-as1input.jpg") no-repeat scroll 0 0 transparent;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #909090;
+  font: 12px/26px "Trebuchet MS";
+  height: 28px;
+  margin-bottom: 28px;
+  padding: 0 0 0 15px;
+  width: 243px; }
+
+.searchadvanc .sinmarg {
+  margin-bottom: 8px !important; }
+
+.searchadvanc .sinmarg p {
+  clear: both; }
+
+.searchadvanc .bt_search {
+  height: 25px;
+  width: 110px;
+  color: #fff;
+  font: normal 11px/25px 'Trebuchet MS';
+  display: block;
+  margin: 20px 75px;
+  background: url(../images/trabaja/bt_search_advance.jpg) repeat-x;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc); }
+
+.searchadvanc .bt_search:hover {
+  background-position: 0 -25px;
+  color: #fff !important; }
+
+.searchadvanc .bt_search:focus {
+  color: #fff !important; }
+
+/**** ESTOS ESTILOS SON DE JACK, ASI QUE YA NO LOS AGREGRES**********/
+.modPerfil {
+  background: #f4f4f4;
+  border: 1px solid #dadada;
+  behavior: url(PIE.htc);
+  border-radius: 6px;
+  margin-bottom: 30px;
+  position: relative; }
+
+.modPerfil h3 {
+  background: url(../images/trabaja/top_box_sug.png) 0 0 no-repeat;
+  color: #FFF;
+  font-family: 'omnesmedium';
+  font-size: 2em;
+  padding: 8px 0 8px 16px; }
+
+.modPerfil ul li {
+  font-size: 1.1em; }
+
+.modPerfil ul li a {
+  color: #5f5f5f;
+  display: block;
+  padding: 16px 0 16px 20px;
+  text-decoration: none; }
+
+.modPerfil ul li a:hover {
+  background: #acacac;
+  behavior: url(PIE.htc);
+  border-radius: 3px;
+  color: #FFF; }
+
+.modPerfil ul li a span {
+  padding-left: 25px; }
+
+.Cconta {
+  background: #FFF;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  behavior: url(PIE.htc);
+  color: #5e5e5e;
+  height: 17px;
+  left: 254px;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  width: 24px; }
+
+/**** FIN ESTILOS SON DE JACK**********/
+.conteLb .texDetalb2 {
+  color: #009b3a;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 37px;
+  text-align: center;
+  width: 60%;
+
+   }
+
+.sinpadd {
+  padding-bottom: 0 !important; }
+
+.content_register {
+  display: inline-table;
+  width: 287px;
+  margin-left: 10px;
+  text-align: center;
+  color: #5f5f5f;
+  position: relative; }
+
+.content_register .titlereg {
+  font-size: 22px;
+  font-weight: bold;
+  color: #009b3a;
+  padding: 0 74px; }
+
+.content_register .titlereg2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #009b3a;
+  padding: 0 34px; }
+
+.content_register .cont_text {
+  padding: 15px 20px;
+  line-height: 16px; }
+
+.content_register .cont_text2 {
+  padding: 15px 20px;
+  line-height: 16px;
+  margin-bottom: 15px; }
+
+.content_register .btn_register {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  display: block;
+  font: 11px/23px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 124px;
+  position: relative; }
+
+.content_register .btn_register:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 .btn_register {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x 0 0;
+  height: 22px !important; }
+
+body.ie8 .btn_register:hover {
+  background-position: 0 -30px;
+  border: 1px solid #c1c1c1;
+  color: #fff; }
+
+.content_register .btn_register2 {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  display: block;
+  font: 11px/23px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 105px;
+  position: relative; }
+
+.content_register .btn_register img {
+  position: absolute;
+  top: 4px;
+  left: 22px; }
+
+.content_register .btn_register2:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 .btn_register2 {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x 0 0;
+  height: 22px !important; }
+
+body.ie8 .btn_register2:hover {
+  background-position: 0 -30px;
+  border: 1px solid #c1c1c1;
+  color: #fff; }
+
+.content_register .btn_register span {
+  padding-left: 22px; }
+
+.content_register .error {
+  color: #ab0326;
+  padding: 10px 20px; }
+
+.content_register .medimg {
+  background: url(../images/trabaja/sprite01.png) -831px 0px no-repeat;
+  width: 17px;
+  height: 195px;
+  position: absolute;
+  top: -4px;
+  left: 290px; }
+
+.content_register input[type="text"].inputtext, .content_register input[type="password"].inputtext {
+  position: relative;
+  background: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  behavior: url(PIE.htc);
+  padding: 7px 4px;
+  width: 235px;
+  height:20px;
+  line-height:20px;
+  margin-bottom: 10px !important; }
+
+.content_register .medimg_chat {
+  background: url(../images/trabaja/sprite01.png) -812px 0 no-repeat;
+  width: 17px;
+  height: 215px;
+  position: absolute;
+  top: 15px;
+  left: 290px; }
+
+.content_register .titlelabel {
+  color: #009b3a;
+  display: block;
+  text-align: left;
+  line-height:18px;
+  padding: 0px 10px 1px 23px; }
+
+.content_register .btn_register_chat {
+  background: url(../images/trabaja/bot_backgrey.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid #BBC1C6;
+  border-radius: 4px 4px 4px 4px;
+  behavior: url(PIE.htc);
+  color: #5F5F5F;
+  font: 11px/23px "Trebuchet MS";
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  width: 105px !important;
+  height: 25px;
+  position: relative;
+  margin-top: 20px; }
+
+.content_register .btn_register_chat:hover {
+  background-position: 0 bottom;
+  color: #fff; }
+
+body.ie8 .content_register .btn_register_chat {
+  height: 22px !important;
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x scroll 0 0 transparent; }
+
+body.ie8 .content_register .btn_register_chat:hover {
+  background: url(../images/trabaja/bot_backgrey2.png) repeat-x 0 -30px transparent; }
+
+.forgotpass {
+  color: #5f5f5f;
+  padding: 40px 0 10px 335px; }
+
+.forgotpass a {
+  color: #0036aa;
+  text-decoration: none;
+}
+
+.forgotpass a:hover {
+  color: #0036aa;
+  text-decoration: underline;
+}
+
+/*FIN Javier 15-11-2013*/
+/*jack 26/11/2013*/
+.cabLbreco {
+  background: url(../images/trabaja/cab_lbreco.png) 0 0 no-repeat;
+  height: 83px;
+  position: relative;
+  width: 450px; }
+
+.cabLbreco a {
+  display: block;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  text-decoration: none;
+  top: 15px;
+  width: 30px; }
+
+.cabLbreco p {
+  color: #0036aa;
+  font-family: 'Trebuchet MS';
+  font-size: 2.4em;
+  line-height: 60px;
+  padding-left: 20px; }
+
+.conteLbreco {
+  width: 450px;
+  margin-top: -20px; }
+
+.cueLbreco {
+  background: #fff; }
+
+.frmReco {
+  margin: auto;
+  width: 78%; }
+
+.inpReco {
+  padding-bottom: 5px; }
+
+.inpReco input[type="text"] {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  box-shadow: 0 0 2px 1px #E4E4E4 inset;
+  border-radius: 3px;
+  color: #747678;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 7px 4px;
+  width: 338px;
+  height: 20px;
+  line-height: 20px;
+  }
+
+.labReco label {
+  color: #009b3a;
+  font-size: 1em; }
+
+.modBtnEnviareco {
+  padding: 10px 0;
+  text-align: center; }
+
+.modBtnEnviareco input {
+  position: relative;
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border: none;
+  border-radius: 4px;
+  behavior: url(PIE.htc);
+  font-size: 1em;
+  height: 25px;
+  padding: 0;
+  text-shadow: none;
+  width: 77px !important; }
+
+.modBtnEnviareco input:hover {
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 bottom; }
+
+body.ie8 .modBtnEnviareco input {
+  height: 24px; }
+
+body.ie8 .modBtnEnviareco input:hover {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 -27px; }
+
+.pieLbreco {
+  background: url(../images/trabaja/pie_lbreco.png) 0 0 no-repeat;
+  height: 10px;
+  width: 450px; }
+
+.texRecolb {
+  color: #009b3a;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin: auto !important;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 78%; }
+
+p.textarea_msj {
+  padding: 0 0 0 9px;
+  font: normal 12px/21px "Trebuchet MS";
+  color: #747678; }
+
+.textReco textarea {
+  background: #F6F6F6;
+  border: 1px solid #D3D3D3;
+  box-shadow: 0 0 2px 1px #E4E4E4 inset;
+  border-radius: 3px;
+  height: 64px;
+  padding: 7px 4px;
+  resize: none;
+  width: 338px; }
+
+/* FIN jack 26/11/2013*/
+.wrap_searcher .searcher_in ul li.si_input {
+  position: relative; 
+  height: 32px;
+}
+
+.wrap_searcher .searcher_in ul li.si_input iframe {
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  height: 40px;
+  width: 200px;
+  z-index: 100000; }
+
+input.fakefile_adj[type='file'] {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  padding: 30px 4px 0;
+  width: 210px;
+  z-index: 2;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
+
+.callactions_overin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 309px;
+  height: 122px;
+  padding: 38px 0 0 0;
+  background: url(../images/trabaja/backg_botshome.jpg);
+  text-align: center; }
+
+.callactions_overin.centered {
+  left: 4px; }
+
+.callactions_overin h4 {
+  padding-bottom: 20px;
+  font: normal 25px/18px 'omnesmedium';
+  color: #fff; }
+
+.callactions_overin h4 span {
+  font: normal 25px/32px 'omneslight';
+  color: #fff; }
+
+.callactions_overin a.botin {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  height: 25px;
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border: none;
+  border-radius: 4px;
+  behavior: url(PIE.htc);
+  font: 11px/25px "Trebuchet MS";
+  padding: 0;
+  text-shadow: none;
+  text-decoration: none; }
+
+.callactions_overin a.botin:hover {
+  color: #FFF;
+  background-position: 0 bottom; }
+
+body.ie8 .callactions_overin a.botin {
+  height: 24px; }
+
+body.ie8 .callactions_overin a.botin:hover {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 -27px; }
+
+.callactions_overin_grey {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 309px;
+  height: 122px;
+  padding: 38px 0 0 0;
+  background: url(../images/trabaja/backg_botshome_grey.jpg);
+  text-align: center; }
+
+.callactions_overin_grey.centered {
+  left: 4px; }
+
+.callactions_overin_grey h4 {
+  padding-bottom: 20px;
+  font: normal 25px/18px 'omnesmedium';
+  color: #009b3a; }
+
+.callactions_overin_grey h4 span {
+  font: normal 25px/32px 'omneslight';
+  color: #009b3a; }
+
+.callactions_overin_grey a.botin {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  height: 25px;
+  color: #FFF;
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 0;
+  border: none;
+  border-radius: 4px;
+  behavior: url(PIE.htc);
+  font: 11px/25px "Trebuchet MS";
+  padding: 0;
+  text-shadow: none;
+  text-decoration: none; }
+
+.callactions_overin_grey a.botin:hover {
+  color: #FFF;
+  background-position: 0 bottom; }
+
+body.ie8 .callactions_overin_grey a.botin {
+  height: 24px; }
+
+body.ie8 .callactions_overin_grey a.botin:hover {
+  background: url(../images/trabaja/bot_backgblue.png) repeat-x 0 -27px; }
+  
+  
+  #li_ui_li_gen_1392742084552_0-link { background:none;}
+  
+  .simplemodal-wrap { width:615px !important; display: block !important;}
+  
+  .inputsGen label { display:inline-block !important;}
+  
+  
+  /*SCROLL BUSQUEDA AVANZADA */
+
+  .slimScrollBar {height: 132.1353065539112px; cursor:pointer;}
+  
+    .cancelForm {
+    background: url(../images/trabaja/bot_backgrey.png) repeat-x 0 0 !important;
+border: 1px solid #BBC1C6 !important;
+color: #5F5F5F !important;
+margin-left: 10px !important;
+padding: 0px 10px;
+height: 23px;
+display: inline-block;
+line-height: 23px;
+border-radius: 3px;
+  }
+  
+  .cancelForm:hover {
+    background-position: 0 bottom !important;
+    color: #fff !important;
+  }
+
+
+  .text_check {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 13px 0 0 100px;
+    vertical-align: middle;
+  }
+  
+  .text_check input[type="checkbox"] {
+    margin-top: -2px;
+  }
+
+.text_check label {
+  color: #5f5f5f;
+  display: inline-block;
+}
+
+.filaCampo .menWi textarea {
+  height: 38px;
+}
+
+.error404 {
+  width: 70%;
+  margin: 60px auto;
+}
+
+.error404 .top404 {
+  text-align: center;
+  margin: 30px 0;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 20px;
+}
+
+.error404 .top404 img {
+  margin: 6px;
+}
+
+.top404 .text_404 {
+  color: #009b3a;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.top404 .text2_404 {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.top404 .text_404 span {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.top404 a {
+  display: block;
+  background: #ea094b;
+  width: 22%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 10px 8px 0px;
+  border-radius: 10px 0px 10px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+.top404 a:hover 
+{
+    color: #fff; 
+}
+
+.top404 .img404 {
+  height: 10px;
+  background: url(../images/trabaja/error_arrow_bt.jpg) no-repeat;
+  position: absolute;
+  width: 8px;
+  top: 10px;
+  right: 14px;
+}
+
+.error404 .bottom404 {
+  color: #aeaeae;
+  font-size: 16px;
+}
+
+.bottom404 p {
+  text-align: center;
+}
+
+.bottom404 ul {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.bottom404 ul li {
+  display: inline-block;
+  margin: 0.5% 0 1% 8%;
+  width: 41%;
+}
+
+.bottom404 ul li a {
+  display: block;
+  width: 100%;
+  background: url(../images/trabaja/pantallas-error_11.jpg) no-repeat right center;
+  text-decoration: none;
+  color: #aeaeae;
+}
+
+.bordernone {
+  border: none !important;
+}
+
+
+/*** RECUPERAR CONTRASEÑA *******/
+.recupera_pass label {
+    margin-right: 50px;
+    float:left;
+    padding-top:13px;
+}
+
+.recupera_pass input[type="text"] {
+    background: #f6f6f6 !important;
+    behavior: url(PIE.htc);
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 3px !important;
+    margin: 6px 0 0 0;
+    padding: 7px 4px !important;
+    width: 370px;
+    position: relative;
+    color: #747678;
+    height: 20px;
+    line-height: 20px;
+}
+
+.recupera_captcha {
+    margin: 20px 0 15px 230px;
+    margin: 20px 0 15px 220px\9;
+}
+
+
+.recupera_captcha .control-group {
+    top: -6px !important;
+}
+
+.recupera_captcha input[type="text"] {
+    background: #f6f6f6 !important;
+    behavior: url(PIE.htc);
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 3px !important;
+    margin: 0;
+    padding: 7px 4px !important;
+    width: 181px;
+    color: #747678;
+    height: 20px;
+    line-height: 20px;
+}
+
+.envio_recuperar  {
+    margin:0 auto;
+}
+
+
+.box_lightbox {
+    width: 600px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    margin-top: -275px;
+    margin-left: -300px;
+}
+
+article.newsdeta ul li {
+list-style: disc;
+margin-left: 25px;
+}
+
+
+article.det_empleo .txtcont a {
+    text-decoration:underline;
+    color:#0af;
+}
+.texInfo-small{padding: 0 0 36px;font:normal 12px/16px "Trebuchet MS";color:#009b3a;text-align:center;}

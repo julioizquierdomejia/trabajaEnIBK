@@ -1,0 +1,19 @@
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;background-position: -748px -138px;}
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{background-position: -748px -209px;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;background-position: -685px -138px;}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{background-position: -685px -209px;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;position: absolute;bottom: 10px;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+ul.bjqs-controls.v-centered li a{display:block;width:62px;height:70px;background:url(../images/trabaja/sprite01.png)  no-repeat;text-indent:-9999px;}
+ul.bjqs-controls.v-centered li a:hover{color:#fff;}
+ol.bjqs-markers li a{display: inline-block;width: 15px;height: 15px;background: url(../images/trabaja/sprite01.png) -767px -117px no-repeat;text-indent: -9999px;border: 0;margin: 0 5px;}
+ol.bjqs-markers li.active-marker a,ol.bjqs-markers li a:hover{background-position: -766px -97px;}
+p.bjqs-caption{background: rgba(255,255,255,0.5);}

@@ -1,0 +1,470 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:12px;background:url(../images/trabaja/body_backg.jpg) 0 0 repeat-x;}
+
+@font-face {
+    font-family: 'omnesmedium';
+    src: url('../fonts/omnes/omnes_medium-webfont.eot');
+    src: url('../fonts/omnes/omnes_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes/omnes_medium-webfont.woff') format('woff'),
+         url('../fonts/omnes/omnes_medium-webfont.ttf') format('truetype'),
+         url('../fonts/omnes/omnes_medium-webfont.svg#omnesmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'omneslight';
+    src: url('../fonts/omnes/omnes_light-webfont.eot');
+    src: url('../fonts/omnes/omnes_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes/omnes_light-webfont.woff') format('woff'),
+         url('../fonts/omnes/omnes_light-webfont.ttf') format('truetype'),
+         url('../fonts/omnes/omnes_light-webfont.svg#omneslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'shark_in_the_waterregular';
+    src: url('../fonts/sharkinthewater/sharkinthewater-webfont.eot');
+    src: url('../fonts/sharkinthewater/sharkinthewater-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sharkinthewater/sharkinthewater-webfont.woff') format('woff'),
+         url('../fonts/sharkinthewater/sharkinthewater-webfont.ttf') format('truetype'),
+         url('../fonts/sharkinthewater/sharkinthewater-webfont.svg#shark_in_the_waterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'shark_in_the_waterbold';
+    src: url('../fonts/sharkinthewater/sharkinthewaterbold-webfont.eot');
+    src: url('../fonts/sharkinthewater/sharkinthewaterbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sharkinthewater/sharkinthewaterbold-webfont.woff') format('woff'),
+         url('../fonts/sharkinthewater/sharkinthewaterbold-webfont.ttf') format('truetype'),
+         url('../fonts/sharkinthewater/sharkinthewaterbold-webfont.svg#shark_in_the_waterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.nobackg{background:none !important;}
+.nopadd{padding:0 !important;}
+.nomarg{margin:0 !important;}
+.noborder{border:0 !important;}
+.none{display:none}
+.blank_this{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.none{
+    display: none;
+
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/* CARGADOR */
+
+.procesandobg {
+    width: 100%;
+    background: #000;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.procesando {
+    width: 180px;
+    height: 147px;
+    background: #fff;
+    margin: 350px 0 0 0;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    display: none;
+    border-radius: 4px;
+    box-shadow: #7B7B7B 0px 0px 8px 2px;
+    position: fixed;
+    margin-top: -73px;
+    margin-left: -84px;
+}
+
+
+.lightbox_terms 
+{
+    background: #fff;
+    padding: 0 8px 10px 8px;
+    height: 500px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.box_terms {
+    margin-top: -300px !important;
+}
+
+.scroll_terms p {
+    margin-right: 20px !important;
+    margin-left: 8px !important;
+    margin-bottom: 4px !important;
+}
+
+.procesando .textloading {
+    text-align: center;
+    height: 45px;
+    font-family: 'Trebuchet MS', Arial;
+    color: #A1A1A1;
+    line-height: 65px;
+    font-size: 12px;
+    margin-top:24px;
+}
+
+.procesando .gif_loading {
+    height: 32px;
+    text-align: center;
+}
+
+
+._5jjq ._5tzr ._5tzv {
+    width: 248px;
+}
+
+.downcv 
+{
+    color: #00a950 !important;
+    text-decoration: underline !important;
+    }
+    
+.box_terms_uso {
+    text-align: center;
+}
+
+.checkterm  {
+    display:inline-block;
+    vertical-align:middle !important;
+}
+    
+.text_terms {
+    color:#717171;
+    display:inline-block;
+}
+
+.text_terms a {
+color: #009CDE !important;
+text-decoration:underline;
+}
+
+.box_terms_uso span {
+    display:block;
+    color: #ab0326;
+    margin: 4px 0;
+}
+    
+.seg_suscbox {
+top: 130px !important;
+}
+
+
+.modBanTerms {
+border-radius: 16px 0px 16px 0px;
+overflow: hidden;
+}
