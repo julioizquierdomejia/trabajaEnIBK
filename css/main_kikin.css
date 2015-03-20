@@ -1,0 +1,40 @@
+.padre{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hijo{
+    margin-bottom: 6px;
+    vertical-align: text-top;
+}
+
+.hijo>div:first-child{
+    width: 30%;
+}
+
+.hijo>div:first-child p{
+    font-weight: bold;
+    color: #000;
+}
+
+.hijo>div:last-child{
+    width: 69%;
+}
+
+.hijo>div{
+    display: inline-table;
+    position: top;
+
+}
+
+.hijo>div p{
+    margin: -5px 0 -5px 0 !important;
+}
+
+#espaciadoBoton {
+    margin: 20px 0 20px 0;
+}
+#subtitulos{
+    margin-top: -10px !important;
+}
