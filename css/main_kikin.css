@@ -2,6 +2,7 @@
     list-style: none;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .hijo{
@@ -15,7 +16,7 @@
 
 .hijo>div:first-child p{
     font-weight: bold;
-    color: #000;
+    color: #535454;
 }
 
 .hijo>div:last-child{
@@ -32,9 +33,69 @@
     margin: -5px 0 -5px 0 !important;
 }
 
+.refes{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.ref{
+    vertical-align: text-top;
+    border-bottom: 1px solid #999;
+    padding: 8px 0 12px 0;
+    position: relative;
+}
+
+
+.ref>div>#bolder{
+    font-weight: bold;
+    color: #535454;
+}
+
+.ref>.data{
+    display: inline-table;
+    position: top;
+    width: 30%;
+
+}
+.ref>.datoB{
+    display: inline-table;
+    position: top;
+    width: 19%;
+
+}
+
+.ref>div p{
+    margin: -5px 0 -5px 0 !important;
+}
+
 #espaciadoBoton {
     margin: 20px 0 20px 0;
 }
 #subtitulos{
     margin-top: -10px !important;
+}
+
+.tools {
+    width: 54px;
+    height: 27px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.tools>a{
+    position: relative;
+    float: left;
+    display: block;
+    width: 27px;
+    height: 27px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+}
+.tools>a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
 }
