@@ -11,6 +11,9 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    border-top: 1px solid #8b8d8e;
+    border-bottom: 1px solid #8b8d8e;
+    margin-bottom: 15px;
 }
 
 .hijo{
@@ -45,7 +48,8 @@
     list-style: none;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin: 20px 0 25px 0;
+    border-top: 1px solid #8b8d8e;
 }
 
 .ref{
@@ -86,7 +90,7 @@
 }
 
 .tools {
-    width: 54px;
+    width: auto;
     height: 27px;
     position: absolute;
     top: 10px;
