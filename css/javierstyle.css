@@ -1,0 +1,207 @@
+.newForm h1{
+	color: #0039a6;
+	font-size: 20px;
+	margin: 0 0 22px 0;
+	font-family: 'Trebuchet MS';
+}
+.newForm h1 span {
+	display: block;
+	font-size: 12px;
+	color: #8b8d8e;
+}
+.newForm .box_experiencia{
+	margin: 0 0 15px 0;
+}
+.newForm .exper_content{
+	margin: 24px 0 10px 0;
+	position: relative;
+	border-top: 1px solid #8b8d8e;
+	padding-top: 10px;
+	font-family: 'Trebuchet MS';
+}
+.newForm .exper_content .inputxt{
+	width: 46%;
+	display: inline-table;
+	font-size: 0;
+	margin: 0 0 16px 0;
+}
+.newForm .exper_content .inputxt.first{
+	margin-right: 4%;
+}
+
+.newForm .exper_content .close_btn, .newForm .exper_contentEdit .close_btn{
+	background-image: url(../images/trabaja/btn_close.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 14px;
+	position: absolute;;
+	right: 0;
+	top: 18px;
+	text-indent: -9999px;
+}
+.newForm .exper_content textarea {
+	width: 96.5%;
+	box-sizing: border-box;
+  	border: 1px solid #e5e5e5;
+  	resize:none;
+  	color: #8b8d8e;
+  	height: 110px;
+  	padding: 10px  20px ;
+  	font-family: 'Trebuchet MS';
+}
+
+.newForm .exper_content .block_select{
+	width: 46%;
+	display: inline-table;
+	font-size: 0;
+	margin: 0 0 14px 0;
+}
+.newForm .exper_content .block_select.first{
+	margin-right: 4%;
+}
+
+.newForm .exper_content .block_select p{
+	font-size: 12px;
+	font-weight: 700;
+	color: #535454;
+	font-family: 'Trebuchet MS';
+	margin: 16px 0 6px 0;
+}
+.newForm .exper_content .block_select .year{
+	width: 46%;
+	margin-right: 8%;
+	display: inline-table;
+	font-size: 0;
+}
+.newForm .exper_content .block_select .moth{
+	width: 46%;
+	display: inline-table;
+	font-size: 0
+}
+
+.newForm .exper_content .btnForm_cv{
+ 	margin: 10px auto 30px auto;
+}
+
+.newForm .exper_contentEdit{
+ 	position: relative;
+	border-top: 1px solid #8b8d8e;
+	border-bottom: 1px solid #8b8d8e;
+	padding: 10px 0 10px 0;
+	margin: 0 0 20px 0;
+	font-family: 'Trebuchet MS';
+	font-size: 12px;
+}
+
+.newForm .exper_contentEdit .edit_btn{
+	background-image: url(../images/btn_edit.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 14px;
+	position: absolute;;
+	right: 30px;
+	top: 18px;
+	text-indent: -9999px;
+}
+
+.newForm .exper_contentEdit li div{
+	display: inline-table;
+}
+.newForm .exper_contentEdit .left{
+	width: 29%;
+	font-weight: 700;
+	padding: 10px 0;
+}
+.newForm .exper_contentEdit .right{
+	width: 69.5%;
+	padding: 10px 0;
+	color: #8b8d8e;
+}
+
+.newForm .btn_referencia .addPa {
+	background-position: 15px top;
+}
+.newForm .btn_referencia .addPa:hover {
+	background-position: 15px -30px;
+}
+
+.newForm .contentEdit02 li{
+	display: inline-table;
+	width: 49%;
+}
+
+/** terminos y condicionses **/
+.newForm .block_select .terminos{
+	min-width: 314px;
+ 	margin: 10px auto 0 auto;
+}
+
+.newForm .terminos a{
+	font-size: 12px;
+	color: #8b8d8e;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+.newForm .terminos .box_checkbox {
+	background: url(../images/img_checkbox.gif) no-repeat;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	display: block;
+}
+.newForm .terminos span.active{
+	background-position: -13px 0px;
+}
+.newForm .terminos .txt_error .box_checkbox{
+	background-position: -26px 0px;
+}
+.newForm .terminos .txt_error span.active{
+	background-position: -13px 0px;
+}
+.newForm .box_checkbox input[type="checkbox"]{
+	position: relative;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+}
+
+@media all and (max-width:720px){
+	.newForm .exper_content .inputxt{
+		width: 100%;
+	}
+	.newForm .exper_content .inputxt.first{
+		margin-right: 0
+	}
+	.newForm .exper_content textarea{
+		width: 100%;
+	}
+	.newForm .exper_content .close_btn{
+		display: none;
+	}
+	.newForm .exper_content .block_select{
+		width: 100%;
+	}
+	.newForm .block_select .terminos{
+		width: 100%;
+		min-width: 100%;
+	}
+	.newForm .exper_content .block_select.first{
+		margin-right: 0;
+	}
+	.newForm .exper_contentEdit .left{
+		width: 42%;
+	}
+	.newForm .exper_contentEdit .right{
+		width: 56.5%;
+	}
+	.newForm .contentEdit02 li{
+		width: 100%;
+	}
+}
