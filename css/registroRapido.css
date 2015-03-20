@@ -85,6 +85,81 @@
 	display: none;
 }
 
+.ruta, .botonAdjuntar, .infoPie{
+		display: none;
+	}
+
 @media(min-width: 720px) {
+	.portada{
+		display: block;
+		width: 100%;
+		height: 240px;
+	}
+	.portada > img{
+		width: 100%;
+		height: auto;
+	}
+	.campoNombres{
+		width: 100%!important;
+	}
+
+	.appePat{
+		padding-right: 60px;
+	}
 	
+	.tipoDoc{
+		float: left;
+		padding-right: 0;
+	}
+
+	.numDoc{
+		width:45%;
+		float: left;
+		
+	}
+
+	.fechaNac{
+		width: 45%;
+	}
+
+	.campoCorreo{
+		width: 100%!important;
+	}
+
+	.contra{
+		width: 45%;
+		float: left;
+		padding-right: 60px;
+	}
+
+	.confirma{
+		width: 45%;
+		float: left;
+	}
+
+	.ruta{
+		width: 45%;
+		float: left;
+	}
+
+	.botonAdjuntar{
+		float: left;
+		margin-left: 59px;
+		margin-right: 56px;
+	}
+
+	.infoPie{
+		display: block;
+		text-align: center;
+		width: 90%;
+		color: #8b8d8e;
+		font-size: 12px;
+		margin: 0 auto;
+		margin-bottom: 22px;
+	}
+
+	.tyc{
+		margin: 8px auto;
+		width: 320px;
+	}
 }

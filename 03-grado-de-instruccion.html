@@ -9,7 +9,7 @@
 	<title>.:: Trabaja en Interbank ::.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-
+	
 	<link rel="stylesheet" href="css/liferay/main.css">
     <link rel="stylesheet" href="css/lib/reseter_v2.css">  
     <link rel="stylesheet" href="css/main_all.css">
@@ -17,11 +17,6 @@
     <!--<link href="css/main-jaco.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
     <link href="css/tablet-jaco.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:800px)">
     <link href="css/movil-jaco.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)"> -->
-
-    <!--Style-->
-    <link rel="stylesheet" type="text/css" href="css/registroRapido.css">
-    <!--js-->
-    
     
     <!-- main -->
     <link href="css/main.css" rel="stylesheet" type="text/css" media="only screen and (min-width:940px)">
@@ -206,38 +201,65 @@
         </div>
     </div>
     <div class="wrap_content newForm">
-    	<h1 class="stTitu1">Regístrate al instante</h1>
-        <div class="portada">
-            <img src="images/portada.jpg">
-        </div>
-        <span class="stTex1 texto_1">¡Registrarte es muy fácil! Solo completa la información y así será más fácil postular a Interbank.</span>
+    	<h1 class="stTitu1">Actualiza tu cv</h1>
+        <span class="stTex1">Bienvenido, para actualizar correctamente tu currículum solo sigue los siguientes pasos. También puedes importar tu información de Linkedin o adjuntarlo como archivo.</span>
         <section class="contPri">
+        	<div class="conBtn">
+            	<a class="btnForm_cv btn_linkedin" href="#">
+               		<i></i>
+                	<span>traer tus datos de linkedin</span>
+               	</a>
+            </div>
+            <div class="conNav op2"> </div>
             <div class="conFormu">
-                <div class="formuL campoNombres">
+                <div class="formuL">
                 	<div class="inputxt">
-               			<input type="text" placeholder="Nombres" class="msError">
+               			<input type="text" placeholder="Teléfono casa" class="msError">
                         <div class="txError"><span>Ingresa un número telefónico válido.</span></div>
            			</div>
                 </div>
-                <div class="formuR appePat">
-                    <div class="inputxt">
-                        <input type="text" placeholder="Apellidos paterno">
-                        <div class="txError"><span style="display:none;">Ingresa un número telefónico váli do.</span></div>
+                <div class="formuR">
+                	<div class="inputxt">
+               			<input type="text" placeholder="Teléfono Móvil">
+                        <div class="txError"><span style="display:none;">Ingresa un número telefónico válido.</span></div>
+           			</div>
+                </div>
+                <div class="clear"></div>
+                <div class="formuL">
+                	<div>
+                        <div class="styleselect">
+                            <span class="listselect">Departamento</span>
+                            <select class="selectform">
+                                <option value="volvo" selected="">Departamento</option>
+                                <option value="saab">depa1</option>
+                                <option value="mercedes">depa2</option>
+                                <option value="audi">depa3</option>
+                            </select>
+                        </div>
+                        <div class="txError"><span style="display:none;">Selecciona una opción.</span></div>
                     </div>
                 </div>
                 <div class="formuR">
-                    <div class="inputxt">
-                        <input type="text" placeholder="Apellido materno">
-                        <div class="txError"><span style="display:none;">Ingresa un número telefónico válido.</span></div>
+                	<div>
+                        <div class="styleselect">
+                            <span class="listselect">Provincia</span>
+                            <select class="selectform">
+                                <option value="volvo" selected="">Provincia</option>
+                                <option value="saab">prov1</option>
+                                <option value="mercedes">prov2</option>
+                                <option value="audi">prov3</option>
+                            </select>
+                        </div>
+                        <div class="txError"><span style="display:none;">Selecciona una opción.</span></div>
                     </div>
                 </div>
                 <div class="clear"></div>
-                <div class="formuL tipoDoc">
+                <div class="formuL">
                 	<div>
                         <div class="styleselect">
-                            <span class="listselect">Tipo de documento</span>
+                            <span class="listselect">Distrito</span>
                             <select class="selectform">
-                                <option value="volvo" selected="">Tipo de documento</option>
+                                <option value="volvo" selected="">Distrito</option>
                                 <option value="saab">dis1</option>
                                 <option value="mercedes">dis2</option>
                                 <option value="audi">dis3</option>
@@ -246,50 +268,17 @@
                         <div class="txError"><span style="display:none;">Selecciona una opción.</span></div>
                     </div>
                 </div>
-                <div class="inputxt numDoc">
-               		<input type="text" placeholder="Numero de documento">
+                <div class="clear"></div>
+                
+                <div class="inputxt">
+               		<input type="text" placeholder="Dirección">
                     <div class="txError"><span style="display:none;">Ingresa una dirección válida.</span></div>
            		</div>
-                <div class="clear"></div>
-                <div class="inputdate fechaNac">
-                  <img class="ui-datepicker-trigger" src="images/imgCalendar_new.png">
-                  <input type="text" placeholder="Fecha de nacimiento" id="calendar" class="hasDatepicker">
-                </div>
-                
-                <div class="formuR campoCorreo">
-                    <div class="inputxt">
-                        <input type="text" placeholder="Correo electrónico">
-                        <div class="txError"><span style="display:none;">Ingresa un número telefónico válido.</span></div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="inputxt contra">
-                    <input type="text" placeholder="Contraseña">
+                <div class="inputxt">
+               		<input type="text" placeholder="Referencia">
                     <div class="txError"></div>
-                </div>
-                <div class="inputxt confirma">
-                    <input type="text" placeholder="Confirmar contraseña">
-                    <div class="txError"></div>
-                </div>
-                <div class="clear"></div>
-                <div class="inputFile botonAdjuntar">
-                    <input type="file">
-                    <img src="images/btn_adjuntarcv.png">
-                </div>
-                <div class="inputxt ruta">
-                    <input type="text" placeholder="Ruta del archivo">
-                    <div class="txError"></div>
-                </div>
-                <span class='infoPie'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, placeat facere, consequatur aliquid quia, eaque culpa veritatis molestias consequuntur, id sit consectetur. Numquam officiis, pariatur sunt! Tenetur placeat optio tempora.</span>
-                <div class="terminos tyc">
-                  <a href="#">
-                    <span class="box_checkbox">
-                      <input type="checkbox" name="checkbox" id="checkbox" class="btncheck">
-                    </span>
-                    <span class="open_lb">He leído y acepto los <span>términos y condiciones</span> de uso</span>
-                  </a>
-                </div>
-                <div class="conBtn botonGuardar">
+           		</div>
+                <div class="conBtn">
                 	<a class="btnForm_cv btn_save" href="#">
                		<i></i>
                 	<span>Guardar</span>
@@ -382,7 +371,6 @@
     <script src="js/vendor/jquery-1.8.3.min.js"></script>
     <script src="js/plugins/jquery.nivo.slider.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/registroRapido.js" type="text/javascript"></script> 
     
 </body>
 </html>
