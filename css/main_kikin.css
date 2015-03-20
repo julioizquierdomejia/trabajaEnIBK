@@ -1,0 +1,136 @@
+.padre{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #8b8d8e;
+    border-bottom: 1px solid #8b8d8e;
+    margin-bottom: 15px;
+}
+
+.hijo{
+    margin-bottom: 6px;
+    vertical-align: text-top;
+}
+
+.hijo>div:first-child{
+    width: 30%;
+}
+
+.hijo>div:first-child p{
+    font-weight: bold;
+    color: #535454;
+}
+
+.hijo>div:last-child{
+    width: 69%;
+}
+
+.hijo>div{
+    display: inline-table;
+    position: top;
+
+}
+
+.hijo>div p{
+    margin: -5px 0 -5px 0 !important;
+}
+
+.refes{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0 25px 0;
+    border-top: 1px solid #8b8d8e;
+}
+
+.ref{
+    vertical-align: text-top;
+    border-bottom: 1px solid #999;
+    padding: 8px 0 12px 0;
+    position: relative;
+}
+
+
+.ref>div>#bolder{
+    font-weight: bold;
+    color: #535454;
+}
+
+.ref>.data{
+    display: inline-table;
+    position: top;
+    width: 30%;
+
+}
+.ref>.datoB{
+    display: inline-table;
+    position: top;
+    width: 19%;
+
+}
+
+.ref>div p{
+    margin: -5px 0 -5px 0 !important;
+}
+
+#espaciadoBoton {
+    margin: 20px 0 20px 0;
+}
+#subtitulos{
+    margin-top: -10px !important;
+}
+
+.tools {
+    width: auto;
+    height: 27px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.tools>a{
+    position: relative;
+    float: left;
+    display: block;
+    width: 27px;
+    height: 27px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+}
+.tools>a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+}
+
+.form1 {
+    border-top: 1px solid #888;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.form1>.inputxt {
+    margin: 15px 35px 15px 0;
+    width: 44%;
+    float: left;
+}
+.form1>#coment {
+    margin: 15px 0 15px 0;
+    width: 100% !important;
+    float: left;
+}
+.form1>#coment>textarea {
+    width: 90% !important;
+    padding-left: 20px;
+    border: 1px solid #E5E5E5;
+}
+.form1>#coment::before{
+   background-color: transparent;
+}
+.form1>.styleselect{
+    width: 20%;
+    float: left;
+    margin:15px 29px 15px 0; 
+}
+
